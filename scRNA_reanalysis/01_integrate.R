@@ -89,7 +89,10 @@ for (folder in names(sample_info)) {
     min.features = 200
   )
   # 仅记录污染比例供 QC 可视化；不据此删细胞（校正后的 counts 已去污染）
-  obj$decontX_contamination <- sce_dx$decontX_contamination[colnames(obj)]
+  # 注意：sce_dx$decontX_contamination 是按列顺序的无名向量，且 obj 经 min.features
+  #       过滤后是 sce_dx 的子集，必须显式按 barcode 对齐，否则索引会得到 NA。
+  contam <- setNames(sce_dx$decontX_contamination, colnames(sce_dx))
+  obj$decontX_contamination <- contam[colnames(obj)]
 
   obj$Sample <- sample_id
   obj$Group  <- factor(group, levels = c("HC", "RA", "RA_ILD"))
