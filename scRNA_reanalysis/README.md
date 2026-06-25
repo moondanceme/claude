@@ -25,7 +25,7 @@
 # CRAN
 install.packages(c("Seurat","harmony","ggplot2","dplyr","tibble"))
 # Bioconductor
-BiocManager::install(c("scDblFinder","SingleR","celldex","SingleCellExperiment",
+BiocManager::install(c("decontX","scDblFinder","SingleR","celldex","SingleCellExperiment",
                        "DESeq2","clusterProfiler","org.Hs.eg.db","speckle",
                        "monocle3","SeuratWrappers","SCopeLoomR"))
 # GitHub
@@ -57,8 +57,9 @@ remotes::install_github("digitalcytometry/cytotrace2", subdir = "cytotrace2_r")
 5. **`ScaleData` 同时 regress `percent.rb`** 可能过度回归（核糖体基因本身有生物学信息）。
    新版默认只 regress `percent.mt`，rb 视情况再加。
 
-6. **没有去环境RNA、没有 hb 过滤、没有保存 QC 图。** 已补 `percent.hb` 过滤与 QC 小提琴/肘图输出；
-   SoupX/CellBender 去 ambient 为可选增强（PBMC 推荐）。
+6. **没有去环境RNA、没有 hb 过滤、没有保存 QC 图。** 已补 `decontX` 去环境RNA污染（per-sample，
+   `Read10X` 之后、建对象之前）、`percent.hb` 过滤、QC 小提琴/肘图输出。
+   decontX 默认校正 counts；如需「删除污染细胞」可按 `decontX_contamination` 阈值再 subset。
 
 7. **「整合」尚未发生。** 文件名是 `01_integrate` 但实际只到 pre-Harmony，真正整合在 `02`。命名上注意。
 
