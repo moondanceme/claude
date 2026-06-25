@@ -74,18 +74,11 @@ for (folder in names(sample_info)) {
   counts <- Read10X(data.dir = data_dir)
 
   # --- decontX 去环境 RNA 污染（per-sample，在建 Seurat 对象之前）---
-  # decontX 默认是「校正 counts」而非「删除细胞」：它估计每个细胞的污染比例
-  # (decontX_contamination)，并输出去污染后的矩阵 (decontXcounts)。
-  # 下面用去污染矩阵替换原始 counts；是否再按污染比例剔除细胞见后面的阈值。
-  sce_dx  <- SingleCellExperiment(list(counts = counts))
-  raw_dir <- sub("filtered", "raw", data_dir)        # 若有未过滤 raw 矩阵作背景，估计更准
-  if (dir.exists(raw_dir)) {
-    bg     <- SingleCellExperiment(list(counts = Read10X(data.dir = raw_dir)))
-    sce_dx <- decontX(sce_dx, background = bg)
-  } else {
-    sce_dx <- decontX(sce_dx)                         # 无 raw 背景则用自带聚类估计
-  }
-  contam     <- sce_dx$decontX_contamination
+  # decontX 的定位是「校正 counts」而非「删除细胞」：它估计每个细胞的污染比例
+  # (decontX_contamination)，并输出去污染后的矩阵 (decontXcounts) 替换原始 counts。
+  # 不提供 raw 背景，decontX 用自带聚类估计环境谱（官方推荐的默认用法）。
+  sce_dx     <- SingleCellExperiment(list(counts = counts))
+  sce_dx     <- decontX(sce_dx)
   dec_counts <- round(decontXcounts(sce_dx))          # 取整后的去污染 counts
 
   obj <- CreateSeuratObject(
@@ -95,10 +88,8 @@ for (folder in names(sample_info)) {
     min.cells    = 3,
     min.features = 200
   )
-  obj$decontX_contamination <- contam[colnames(obj)]  # 对齐 CreateSeuratObject 过滤后的细胞
-
-  # 可选：剔除污染比例过高的「污染细胞」（阈值看 QC 分布调，常用 0.2–0.5）
-  obj <- subset(obj, subset = decontX_contamination < 0.2)
+  # 仅记录污染比例供 QC 可视化；不据此删细胞（校正后的 counts 已去污染）
+  obj$decontX_contamination <- sce_dx$decontX_contamination[colnames(obj)]
 
   obj$Sample <- sample_id
   obj$Group  <- factor(group, levels = c("HC", "RA", "RA_ILD"))

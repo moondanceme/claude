@@ -58,8 +58,9 @@ remotes::install_github("digitalcytometry/cytotrace2", subdir = "cytotrace2_r")
    新版默认只 regress `percent.mt`，rb 视情况再加。
 
 6. **没有去环境RNA、没有 hb 过滤、没有保存 QC 图。** 已补 `decontX` 去环境RNA污染（per-sample，
-   `Read10X` 之后、建对象之前）、`percent.hb` 过滤、QC 小提琴/肘图输出。
-   decontX 默认校正 counts；如需「删除污染细胞」可按 `decontX_contamination` 阈值再 subset。
+   `Read10X` 之后、建对象之前，用校正后的 counts 继续）、`percent.hb` 过滤、QC 小提琴/肘图输出。
+   decontX 只校正 counts、**不按污染分数删细胞**（无生物学依据的硬阈值会无谓损失信息）；
+   `decontX_contamination` 仅留作 QC 可视化。
 
 7. **「整合」尚未发生。** 文件名是 `01_integrate` 但实际只到 pre-Harmony，真正整合在 `02`。命名上注意。
 
