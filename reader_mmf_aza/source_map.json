@@ -1,0 +1,1016 @@
+{
+ "paper": {
+  "title": "Mycophenolate and Azathioprine in Fibrotic Interstitial Lung Disease",
+  "venue": "Am J Respir Crit Care Med 2026;212(10):2493-2503 (PMC author manuscript)",
+  "doi": "10.1093/ajrccm/aamag362",
+  "source_type": "pdf",
+  "language": "en",
+  "source_path": "/root/.claude/uploads/67ffe43c-3bc0-5f40-8214-6a8f37da1d2b/faba74d1-Mycophenolate_and_Azathioprine_in_Fibrotic_Interstitial_Lung_Disease.pdf"
+ },
+ "blocks": [
+  {
+   "id": "S001",
+   "page": 1,
+   "type": "heading",
+   "order": 1,
+   "original_text": "Abstract",
+   "translation": "摘要",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S002",
+   "page": 1,
+   "type": "paragraph",
+   "order": 2,
+   "original_text": "Rationale: Immunosuppression is routinely used for non–idiopathic pulmonary fibrosis (IPF) interstitial lung diseases (ILDs), despite limited trial evidence and unclear impact on long-term outcomes.",
+   "translation": "研究依据：免疫抑制治疗在非特发性肺纤维化（IPF）的间质性肺病（ILD）中被常规使用，但相关试验证据有限，其对长期结局的影响也不明确。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S003",
+   "page": 2,
+   "type": "paragraph",
+   "order": 3,
+   "original_text": "Objectives: To evaluate whether mycophenolate or azathioprine improves three-year transplant-free survival and lung function trajectory in fibrotic ILD, including non-IPF idiopathic interstitial pneumonia (IIP), fibrotic hypersensitivity pneumonitis (fHP), and connective-tissue disease (CTD) associated ILD.",
+   "translation": "研究目的：评估吗替麦考酚酯（mycophenolate）或硫唑嘌呤（azathioprine）能否改善纤维化型 ILD 患者的三年无移植生存率及肺功能变化轨迹，研究人群包括非 IPF 特发性间质性肺炎（IIP）、纤维化型过敏性肺炎（fHP）和结缔组织病（CTD）相关 ILD。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S004",
+   "page": 2,
+   "type": "paragraph",
+   "order": 4,
+   "original_text": "Methods: We employed a clone-censor-weighting framework to emulate a randomized controlled trial in this multi-center retrospective study. Each patient was cloned and assigned to immunosuppression initiation within 6 months of enrollment or no initiation strategies, and censored when the assigned strategy deviated from observed treatment. Stabilized inverse probability treatment and censoring weights were used.",
+   "translation": "方法：本项多中心回顾性研究采用克隆–删失–加权（clone-censor-weighting）框架来模拟一项随机对照试验。每例患者被克隆，分别分配到“入组后 6 个月内启动免疫抑制”和“不启动”两种策略；当所分配策略与实际观察到的治疗不符时予以删失。分析使用了稳定化的逆概率处理权重和逆概率删失权重。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S005",
+   "page": 2,
+   "type": "paragraph",
+   "order": 5,
+   "original_text": "Measurements: The primary endpoint was three-year transplant-free survival assessed with weighted Cox models across treatment strategies. Weighted generalized estimating equations were used to model lung function trajectory.",
+   "translation": "测量指标：主要终点为三年无移植生存，采用加权 Cox 模型在不同治疗策略间进行评估。肺功能变化轨迹采用加权广义估计方程建模。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S006",
+   "page": 2,
+   "type": "paragraph",
+   "order": 6,
+   "original_text": "Main Results: Among 2,270 included patients, 18% (186/1022) with non-IPF IIP, 30% (162/544) with fHP, and 31% (221/704) with CTD-ILD were initiated on immunosuppression within 6-months. Immunosuppression was not associated with improved survival within any ILD subtype but was associated with worse survival in non-IPF IIP (HR 1.38, 95% CI 1.04-1.84) and fHP (HR 1.62, 95% CI 1.09-2.40). Immunosuppression was not associated with differential lung function trajectory within any ILD subtype.",
+   "translation": "主要结果：在纳入的 2,270 例患者中，非 IPF IIP 患者有 18%（186/1022）、fHP 患者有 30%（162/544）、CTD-ILD 患者有 31%（221/704）在 6 个月内启动了免疫抑制治疗。在任何 ILD 亚型中，免疫抑制均未与生存改善相关；相反，在非 IPF IIP（HR 1.38，95% CI 1.04–1.84）和 fHP（HR 1.62，95% CI 1.09–2.40）中与更差的生存相关。在任何 ILD 亚型中，免疫抑制均未与肺功能变化轨迹的差异相关。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S007",
+   "page": 2,
+   "type": "paragraph",
+   "order": 7,
+   "original_text": "Conclusions: In this study, immunosuppression initiation showed no evidence of benefit for three-year transplant-free survival or lung function and was associated with higher mortality in select fibrotic ILD subtypes. Prospective randomized controlled trials are needed to inform patient care.",
+   "translation": "结论：在本研究中，启动免疫抑制治疗未显示出对三年无移植生存或肺功能有获益的证据，且在部分纤维化型 ILD 亚型中与更高的死亡率相关。需要前瞻性随机对照试验来指导患者诊疗。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S008",
+   "page": 2,
+   "type": "heading",
+   "order": 8,
+   "original_text": "At a Glance Commentary",
+   "translation": "要点速览",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S009",
+   "page": 2,
+   "type": "paragraph",
+   "order": 9,
+   "original_text": "Scientific Knowledge on the Subject: Immunosuppressant therapy with mycophenolate or azathioprine is commonly prescribed for fibrotic interstitial lung diseases (ILDs) including non-idiopathic pulmonary fibrosis (IPF) idiopathic interstitial pneumonia, fibrotic hypersensitivity pneumonitis, and connective tissue disease-associated ILD (CTD-ILD). This practice is largely derived from retrospective observational studies, which carries inherent biases. While there are data that immunosuppressant therapy improves lung function in subsets of patients with CTD-ILD, the effect of immunosuppressant therapy on survival remains uncertain.",
+   "translation": "该领域已有认识：吗替麦考酚酯或硫唑嘌呤免疫抑制治疗常用于纤维化型间质性肺病（ILD），包括非特发性肺纤维化（IPF）的特发性间质性肺炎、纤维化型过敏性肺炎以及结缔组织病相关 ILD（CTD-ILD）。这一做法主要来源于回顾性观察研究，而此类研究存在固有偏倚。虽然已有数据显示免疫抑制治疗可改善部分 CTD-ILD 患者的肺功能，但其对生存的影响仍不确定。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S010",
+   "page": 2,
+   "type": "paragraph",
+   "order": 10,
+   "original_text": "What This Study Adds to the Field: Using a robust clone-censor-weighting design to emulate a randomized clinical trial, this multicenter retrospective study of 2270 patients with non-IPF ILD found no evidence that initiating mycophenolate or azathioprine improved three-year transplant-free survival or lung function trajectory in any ILD subtype studied. Instead, immunosuppressant therapy was associated with worse survival in patients with non-IPF idiopathic interstitial pneumonia and fibrotic hypersensitivity pneumonitis. These findings challenge routine use of immunosuppressant therapy in these populations and underscore the urgent need for prospective randomized controlled trials to clarify its role in guiding treatment decisions for fibrotic ILD.",
+   "translation": "本研究的新贡献：这项纳入 2270 例非 IPF ILD 患者的多中心回顾性研究，采用稳健的克隆–删失–加权设计来模拟随机临床试验，结果在所研究的任何 ILD 亚型中，均未发现启动吗替麦考酚酯或硫唑嘌呤能改善三年无移植生存或肺功能变化轨迹的证据。相反，在非 IPF 特发性间质性肺炎和纤维化型过敏性肺炎患者中，免疫抑制治疗与更差的生存相关。这些发现对在上述人群中常规使用免疫抑制治疗提出了挑战，并凸显了开展前瞻性随机对照试验、以明确其在纤维化型 ILD 治疗决策中作用的迫切性。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S011",
+   "page": 3,
+   "type": "heading",
+   "order": 11,
+   "original_text": "Introduction",
+   "translation": "引言",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S012",
+   "page": 3,
+   "type": "paragraph",
+   "order": 12,
+   "original_text": "Interstitial lung disease (ILD) comprises a heterogeneous group of lung disorders characterized by variable degrees of fibrosis and inflammation, which results in unpredictable disease trajectories and limited clarity around optimal treatment. Although multiple randomized trials have defined effective and harmful therapies for idiopathic pulmonary fibrosis (IPF),(1-4) comparable high-quality evidence is lacking for other ILDs, including non-IPF idiopathic interstitial pneumonia (IIP), fibrotic hypersensitivity pneumonitis (fHP), and most subtypes of connective tissue disease–associated ILD (CTD-ILD). Nintedanib and nerandomilast have been shown to slow lung function decline in progressive ILD, but approval and coverage generally require disease progression.(5, 6) In an effort to prevent progression, these conditions are often treated with immunosuppression, yet the benefit outside of CTD-ILD remains uncertain.(7)",
+   "translation": "间质性肺病（ILD）是一组异质性的肺部疾病，以不同程度的纤维化和炎症为特征，导致疾病进程难以预测，最佳治疗方案也不够明确。尽管多项随机试验已经明确了特发性肺纤维化（IPF）中有效和有害的疗法，(1-4) 但对于其他 ILD——包括非 IPF 特发性间质性肺炎（IIP）、纤维化型过敏性肺炎（fHP）以及大多数结缔组织病相关 ILD（CTD-ILD）亚型——仍缺乏同等质量的证据。尼达尼布（nintedanib）和 nerandomilast 已被证明可延缓进展性 ILD 的肺功能下降，但其获批适应证和医保覆盖通常要求疾病已经进展。(5, 6) 为防止疾病进展，这些疾病常采用免疫抑制治疗，但除 CTD-ILD 外，其获益仍不确定。(7)",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S013",
+   "page": 3,
+   "type": "paragraph",
+   "order": 13,
+   "original_text": "In the absence of randomized trials, treatment effects are frequently inferred from observational data, but such analyses are vulnerable to confounding by indication, immortal-time bias, and selection bias.(8) Target trial emulation provides the framework to address these challenges by explicitly defining the protocol of an ideal randomized controlled trial (RCT) that would answer the research question, then using observational data to emulate that trial, thereby reducing the biases inherent in traditional observational analyses.(9) Clone-censor-weighting (CCW) operationalizes this framework by assigning patients to eligible treatment strategies at baseline, censoring deviations, and applying inverse probability weights to create a pseudo-population in which treatment is independent of prognosis.(10, 11) This approach mitigates biases from time-dependent treatment decisions and yields more interpretable estimates of real-world treatment effects.",
+   "translation": "在缺乏随机试验的情况下，治疗效果常从观察性数据中推断，但此类分析容易受到适应证混杂、不朽时间偏倚（immortal-time bias）和选择偏倚的影响。(8) 目标试验模拟（target trial emulation）为应对这些问题提供了框架：先明确定义一项能回答该研究问题的理想随机对照试验（RCT）方案，再用观察性数据去模拟这项试验，从而减少传统观察性分析固有的偏倚。(9) 克隆–删失–加权（CCW）是实现这一框架的具体方法：在基线时将患者分配到其符合条件的各治疗策略中，对偏离策略者进行删失，并应用逆概率权重构建一个“伪人群”，使治疗与预后相互独立。(10, 11) 这种方法可减轻由随时间变化的治疗决策带来的偏倚，并得到更易解释的真实世界治疗效果估计。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S014",
+   "page": 3,
+   "type": "paragraph",
+   "order": 14,
+   "original_text": "Using CCW, we emulated a per-protocol trial to evaluate whether immunosuppression (mycophenolate or azathioprine) improves survival or lung function trajectory in fibrotic ILD subtypes for which immunosuppression is commonly employed and included a similarly constructed IPF cohort as a comparator given the established harm of immunosuppression in IPF.",
+   "translation": "我们使用 CCW 模拟了一项符合方案（per-protocol）试验，以评估免疫抑制（吗替麦考酚酯或硫唑嘌呤）能否改善那些常规使用免疫抑制的纤维化型 ILD 亚型的生存或肺功能变化轨迹；鉴于免疫抑制在 IPF 中的危害已被证实，我们还以相同方式构建了一个 IPF 队列作为对照。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S015",
+   "page": 3,
+   "type": "heading",
+   "order": 15,
+   "original_text": "Methods",
+   "translation": "方法",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S016",
+   "page": 3,
+   "type": "heading",
+   "order": 16,
+   "original_text": "Observed Study Populations and Eligibility Criteria",
+   "translation": "观察研究人群与入选标准",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S017",
+   "page": 3,
+   "type": "paragraph",
+   "order": 17,
+   "original_text": "Patients with non-IPF fibrotic ILD were retrospectively identified from registries at the University of California, San Francisco and Davis (California, 2006–2020), University of Texas Southwestern (UTSW, 2006–2020), University of Michigan (2006–2019), University of Chicago (2006–2020), and Royal Brompton & Harefield Hospitals (RBH, 2009–2014). Institutional review boards at each U.S. participating center approved the protocol (UCSF #10-01592 and #10-00198; UCD #928979; UTSW #092017-007 and #2021-0598; Chicago #13-1180; and Michigan HUM00105694) and UK approval for the study was obtained from the local Research Ethics Committee (19/LO/1879).",
+   "translation": "非 IPF 纤维化型 ILD 患者经回顾性方式从以下登记库中识别：加州大学旧金山分校和戴维斯分校（California，2006–2020）、德克萨斯大学西南医学中心（UTSW，2006–2020）、密歇根大学（2006–2019）、芝加哥大学（2006–2020）以及皇家布朗普顿与哈尔菲尔德医院（RBH，2009–2014）。美国各参与中心的机构审查委员会批准了研究方案（UCSF #10-01592 与 #10-00198；UCD #928979；UTSW #092017-007 与 #2021-0598；Chicago #13-1180；Michigan HUM00105694），英国部分的研究获得当地研究伦理委员会批准（19/LO/1879）。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S018",
+   "page": 3,
+   "type": "paragraph",
+   "order": 18,
+   "original_text": "Eligible patients had clinical and high resolution computed tomography (HRCT) data to support a multidisciplinary diagnosis of non-IPF fibrotic IIP, fHP, or CTD-ILD using accepted criteria.(7, 12, 13) Additional inclusion criteria were: baseline HRCT confirming fibrosis and imaging pattern as determined at each site, baseline forced vital capacity (FVC) ≥40% predicted and diffusing capacity for carbon monoxide (DLCO) ≥25% predicted, and known death or transplant status within three years of enrollment. Patients were excluded if they received mycophenolate, azathioprine, or antifibrotics (nintedanib, pirfenidone) before registry enrollment or were treated with antifibrotics prior to immunosuppression. Given that mycophenolate and azathioprine are the most used immunosuppressants in our ILD cohorts, patients initially exposed to other immunosuppressants (including rituximab and cyclophosphamide) were excluded. A comparator cohort of patients with a multi-disciplinary diagnosis of IPF was assembled using the same inclusion and exclusion criteria.",
+   "translation": "符合条件的患者需具备临床和高分辨率计算机断层扫描（HRCT）资料，可依据公认标准支持非 IPF 纤维化型 IIP、fHP 或 CTD-ILD 的多学科诊断。(7, 12, 13) 其他纳入标准包括：基线 HRCT 证实存在纤维化，影像学类型由各中心判定；基线用力肺活量（FVC）≥ 预计值的 40%，一氧化碳弥散量（DLCO）≥ 预计值的 25%；入组后三年内的死亡或移植状态已知。若患者在登记入组前已接受吗替麦考酚酯、硫唑嘌呤或抗纤维化药物（尼达尼布、吡非尼酮），或在免疫抑制之前接受过抗纤维化治疗，则予以排除。鉴于吗替麦考酚酯和硫唑嘌呤是本研究 ILD 队列中最常用的免疫抑制剂，初始暴露于其他免疫抑制剂（包括利妥昔单抗和环磷酰胺）的患者亦被排除。采用相同的纳入与排除标准，组建了一个经多学科诊断为 IPF 的对照队列。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S019",
+   "page": 4,
+   "type": "heading",
+   "order": 19,
+   "original_text": "Clinical Covariates and Outcomes",
+   "translation": "临床协变量与结局",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S020",
+   "page": 4,
+   "type": "paragraph",
+   "order": 20,
+   "original_text": "Dates of exposure to ILD-directed medications including mycophenolate, azathioprine, pirfenidone, and nintedanib were abstracted from the medical records from each site. Immunosuppressant exposure was defined as initiation of mycophenolate or azathioprine within 6 months of registry enrollment. For patients treated sequentially with mycophenolate or azathioprine, the first drug was considered primary for descriptive summaries and drug-specific analyses. Pirfenidone and nintedanib were not considered treatment exposures in the target trial but were handled as exclusion criteria at baseline or censoring events during follow up. Clinical covariates included age, sex, race and ethnicity, smoking history, FVC and DLCO percent predicted, enrollment year, and HRCT pattern.",
+   "translation": "针对 ILD 的药物（包括吗替麦考酚酯、硫唑嘌呤、吡非尼酮和尼达尼布）的暴露日期均从各中心的病历中摘录。免疫抑制剂暴露定义为登记入组后 6 个月内启动吗替麦考酚酯或硫唑嘌呤。对于先后使用吗替麦考酚酯和硫唑嘌呤的患者，在描述性汇总和药物特异性分析中以首用药物为主。吡非尼酮和尼达尼布在目标试验中不被视为治疗暴露，而是作为基线排除标准或随访期间的删失事件处理。临床协变量包括年龄、性别、种族与族裔、吸烟史、FVC 和 DLCO 占预计值百分比、入组年份以及 HRCT 类型。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S021",
+   "page": 4,
+   "type": "paragraph",
+   "order": 21,
+   "original_text": "The primary outcome was death or lung transplant within 3 years of enrollment. This timeframe was chosen to allow sufficient follow-up time to capture survival differences and adequate time for immunosuppressant titration and effect, while avoiding excessively long follow-up susceptible to unrelated intervening factors. Serial absolute FVC and DLCO values through three years were collected, with DLCO measurements excluded when the maneuver could not be completed for any reason. No imputation was performed for missing data.",
+   "translation": "主要结局为入组后 3 年内死亡或肺移植。选择这一时间窗，是为了留出足够的随访时间来捕捉生存差异，并为免疫抑制剂的剂量滴定和起效提供充分时间，同时避免过长随访受到无关干扰因素的影响。研究收集了三年内连续的 FVC 和 DLCO 绝对值；凡因任何原因未能完成检查动作的 DLCO 测量均予以剔除。缺失数据未做插补。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S022",
+   "page": 4,
+   "type": "heading",
+   "order": 22,
+   "original_text": "Clone–Censor–Weighting Framework",
+   "translation": "克隆–删失–加权框架",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S023",
+   "page": 4,
+   "type": "paragraph",
+   "order": 23,
+   "original_text": "We applied target clinical trial emulation framework using a clone-censor weighting (CCW) approach, comparing the effect of mycophenolate or azathioprine initiation within 6 months of enrollment compared to no initiation within this window among patients with non-IPF fibrotic ILD. The specifications for the emulated targeted trial are presented in Table E1, and study design is depicted in Figure 1.",
+   "translation": "我们采用克隆–删失–加权（CCW）方法实施目标临床试验模拟框架，在非 IPF 纤维化型 ILD 患者中比较入组后 6 个月内启动吗替麦考酚酯或硫唑嘌呤与在该时间窗内不启动的效果。所模拟目标试验的具体设定见表 E1，研究设计见图 1。",
+   "confidence": "high",
+   "refs": [
+    "F001"
+   ]
+  },
+  {
+   "id": "C001",
+   "page": 16,
+   "type": "caption",
+   "order": 23,
+   "original_text": "Figure 1: Study overview demonstrating clone-censor-weighting design. Size of patient figures and line thickness represents relative contribution to pseudo-population resulting from inverse probability of treatment weighting and inverse probability of censor weighting. Squares represent immunosuppression initiation; circles represent censoring; triangles represent death or transplant outcomes. Abbreviations: IS-immunosuppression",
+   "translation": "图 1：研究概览，展示克隆–删失–加权设计。患者图形的大小与连线粗细表示经逆概率处理加权和逆概率删失加权后，各患者对伪人群的相对贡献。方块表示启动免疫抑制；圆圈表示删失；三角形表示死亡或移植结局。缩写：IS——免疫抑制。",
+   "confidence": "high",
+   "refs": [
+    "F001"
+   ]
+  },
+  {
+   "id": "S024",
+   "page": 4,
+   "type": "paragraph",
+   "order": 24,
+   "original_text": "The CCW framework requires three steps: cloning, censoring, and weighting. First, all included patients were cloned while retaining baseline characteristics; one clone was assigned to the initiate immunosuppression within 6 months strategy, and the other clone was assigned no immunosuppressant initiation. Second, artificial censoring was performed when the clone deviated from their assigned strategy within the 6-month treatment window, representing the point at which an individual’s observed treatment trajectory becomes incompatible with their assigned strategy. Switching between mycophenolate and azathioprine was not considered a deviation from the class-level immunosuppression strategy. Each clone was then followed from enrollment until the earliest occurrence of death, lung transplantation, administrative censoring at initiation of antifibrotic or end of three years, or artificial censoring due to deviation from the assigned strategy. Third, we performed weighting separately within each center and fibrotic ILD subtype. To account for confounding by indication, inverse probability of treatment weighting (IPTW) using propensity scores was employed, adjusting for baseline covariates (age at enrollment, sex, non-Hispanic White ethnicity, smoking history [ever/never], baseline FVC and DLCO percent predicted, HRCT usual interstitial pneumonia (UIP) pattern [present/absent], and enrollment year). To mitigate selection bias from artificial censoring, time-updated stabilized inverse probability of censoring weights (IPCW) were also derived, modeled using Cox regression with censoring as the event. To account for potential informative administrative censoring due to antifibrotic initiation, time to antifibrotic initiation was also included as a covariate in the IPCW models. The final weight used for each clone was computed as the product of the baseline IPTW and the time-updated IPCW. This joint weight represented the probability of receiving the assigned treatment strategy and remaining uncensored under that strategy, thereby creating a pseudo-population in which all individuals adhere to their assigned strategy throughout follow-up.(10, 14) For the longitudinal lung function trajectory analyses, the time-updated IPCW also included adherence and visit observation indicators to account for informative missingness of FVC or DLCO measurements and analyses were restricted to uncensored, strategy compliant three-year follow up.",
+   "translation": "CCW 框架包含三个步骤：克隆、删失和加权。第一，所有纳入患者均被克隆并保留其基线特征；一个克隆体被分配到“6 个月内启动免疫抑制”策略，另一个克隆体被分配到“不启动免疫抑制”策略。第二，当克隆体在 6 个月治疗窗内偏离其被分配的策略时进行人为删失，该时间点代表个体实际治疗轨迹与所分配策略不再相容。在吗替麦考酚酯与硫唑嘌呤之间换药不被视为偏离药物类别层面的免疫抑制策略。随后，每个克隆体从入组开始随访，直至最早发生以下事件之一：死亡、肺移植、因启动抗纤维化药物或满三年而发生的管理性删失，或因偏离所分配策略而发生的人为删失。第三，我们在每个中心和每个纤维化型 ILD 亚型内部分别进行加权。为处理适应证混杂，采用基于倾向评分的逆概率处理加权（IPTW），校正的基线协变量包括入组年龄、性别、非西班牙裔白人族裔、吸烟史［曾吸/从不］、基线 FVC 和 DLCO 占预计值百分比、HRCT 普通型间质性肺炎（UIP）类型［有/无］以及入组年份。为减轻人为删失导致的选择偏倚，还推导了随时间更新的稳定化逆概率删失权重（IPCW），以删失为事件、采用 Cox 回归建模。为处理因启动抗纤维化药物可能导致的信息性管理删失，IPCW 模型还纳入了至启动抗纤维化药物的时间作为协变量。每个克隆体的最终权重为基线 IPTW 与随时间更新的 IPCW 之积。该联合权重代表接受所分配治疗策略并在该策略下保持未删失的概率，从而构建一个所有个体在整个随访期间都遵循其所分配策略的伪人群。(10, 14) 在纵向肺功能轨迹分析中，随时间更新的 IPCW 还纳入了依从性和就诊观测指示变量，以处理 FVC 或 DLCO 测量的信息性缺失，且分析仅限于未删失、遵循策略的三年随访数据。",
+   "confidence": "high",
+   "refs": [
+    "F001"
+   ]
+  },
+  {
+   "id": "S025",
+   "page": 5,
+   "type": "paragraph",
+   "order": 25,
+   "original_text": "Robustness of the CCW process was assessed by examining distribution of propensity scores, IPTW, and IPCW as well as covariate balance, defined as absolute standardized mean difference <0.1 indicating adequate confounder balance, for each weighting step.(15) We also assessed effective sample size (ESS) compared to cloned sample size to estimate degree of data loss from artificial censoring.(16)",
+   "translation": "通过考察每一加权步骤中倾向评分、IPTW 和 IPCW 的分布以及协变量平衡情况（以标准化均值差绝对值 <0.1 表示混杂因素充分平衡），评估 CCW 过程的稳健性。(15) 我们还将有效样本量（ESS）与克隆后样本量进行比较，以估计人为删失造成的数据损失程度。(16)",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S026",
+   "page": 5,
+   "type": "heading",
+   "order": 26,
+   "original_text": "Statistical Analyses",
+   "translation": "统计分析",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S027",
+   "page": 5,
+   "type": "paragraph",
+   "order": 27,
+   "original_text": "All contrasts represented a per-protocol effect, which estimates the impact of immunosuppression initiation within 6 months that would have been observed if all patients adhered to the assigned treatment strategy.(17) For all outcome models, centers were pooled within fibrotic subtypes while retaining the center-specific weights to account for center-level treatment and covariate heterogeneity.",
+   "translation": "所有比较均代表符合方案效应，即估计在所有患者都遵循所分配治疗策略的情况下，6 个月内启动免疫抑制所能观察到的影响。(17) 在所有结局模型中，各中心在纤维化亚型内合并分析，同时保留中心特异性权重，以考虑中心层面治疗方式与协变量的异质性。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S028",
+   "page": 5,
+   "type": "paragraph",
+   "order": 28,
+   "original_text": "The primary analysis estimated the effect of initiating immunosuppressant therapy within 6 months of enrollment on three-year transplant-free survival. Weighted Cox proportional hazards models with robust variance and center stratification were used to estimate strategy-specific hazard ratios within each ILD subtype. Models were stratified by center to allow for center-specific baseline hazards, while estimating the common treatment effect across centers. Sensitivity survival analyses were conducted to examine alternative weighting specifications, alternative treatment initiation windows (3 and 12 months), and estimate the effect of azathioprine and mycophenolate individually. Confounding sensitivity analyses were also performed using E-values to quantify the minimum strength that an unmeasured confounder would need to have with both immunosuppression exposure and survival to fully explain away the observed effect of immunosuppression on survival.(18)",
+   "translation": "主要分析估计了入组后 6 个月内启动免疫抑制治疗对三年无移植生存的影响。采用具有稳健方差并按中心分层的加权 Cox 比例风险模型，估计各 ILD 亚型内的策略特异性风险比。模型按中心分层，以允许各中心有各自的基线风险，同时估计跨中心共同的治疗效应。生存敏感性分析考察了不同的加权设定、不同的治疗启动窗（3 个月和 12 个月），并分别估计了硫唑嘌呤和吗替麦考酚酯各自的效应。此外，还采用 E 值进行混杂敏感性分析，量化一个未测量混杂因素需要与免疫抑制暴露及生存二者同时具有多强的关联，才能完全解释掉所观察到的免疫抑制对生存的效应。(18)",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S029",
+   "page": 6,
+   "type": "paragraph",
+   "order": 29,
+   "original_text": "Detailed model specifications can be found in the Supplemental Methods. The effect of immunosuppressant strategy on three-year transplant-free survival was assessed across predicted baseline mortality risk strata and clinically relevant subclassifications of non-IPF fibrotic ILD subtypes (idiopathic nonspecific interstitial pneumonia (iNSIP), unclassifiable ILD [uILD], interstitial pneumonia with autoimmune features [IPAF], rheumatoid arthritis ILD [RA-ILD], systemic sclerosis ILD [SSc-ILD], and other connective tissue disease associated ILDs). The predicted mortality risk was derived using prognostic baseline covariates within the patients not initiated on immunosuppression and applied to the pooled non-IPF fibrotic ILD cohort. The difference in longitudinal lung function change from baseline between treatment strategies was assessed using weighted generalized estimating equations with robust standard errors within ILD subtypes.",
+   "translation": "详细的模型设定见补充方法（Supplemental Methods）。研究在不同的基线预测死亡风险分层，以及非 IPF 纤维化型 ILD 亚型中具有临床意义的细分类别（特发性非特异性间质性肺炎［iNSIP］、不可分类 ILD［uILD］、具有自身免疫特征的间质性肺炎［IPAF］、类风湿关节炎相关 ILD［RA-ILD］、系统性硬化症相关 ILD［SSc-ILD］及其他结缔组织病相关 ILD）中，评估了免疫抑制策略对三年无移植生存的影响。预测死亡风险是在未启动免疫抑制的患者中利用具有预后意义的基线协变量推导得出，再应用于合并的非 IPF 纤维化型 ILD 队列。在各 ILD 亚型内，采用具有稳健标准误的加权广义估计方程，评估不同治疗策略之间肺功能相对基线纵向变化的差异。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S030",
+   "page": 6,
+   "type": "paragraph",
+   "order": 30,
+   "original_text": "Proportional hazards assumption for all survival models was assessed using Schonfeld residuals and by examining log-log survival plots. Two-sided p < 0.05 was considered statistically significant. Analyses were conducted in R (version 4.5.2). CCW dataset construction and weighting procedures were implemented using custom R functions. Survival analyses were performed using the survival package,(19) and longitudinal lung function analyses were conducted using the geepack package.(20)",
+   "translation": "所有生存模型的比例风险假设均通过 Schoenfeld 残差及 log-log 生存曲线进行检验。双侧 p < 0.05 视为具有统计学意义。分析在 R（4.5.2 版）中完成。CCW 数据集构建和加权过程使用自编 R 函数实现。生存分析使用 survival 包，(19) 纵向肺功能分析使用 geepack 包。(20)",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S031",
+   "page": 6,
+   "type": "heading",
+   "order": 31,
+   "original_text": "Results",
+   "translation": "结果",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S032",
+   "page": 6,
+   "type": "paragraph",
+   "order": 32,
+   "original_text": "Among the 3398 non-IPF fibrotic ILD patients screened, 2270 met inclusion criteria including 1022 non-IPF IIP patients, 544 fHP patients, and 704 CTD-ILD patients (Figure 2). Across the diagnostic subtypes, patients with CTD-ILD were younger with a higher proportion of females and lower rates of death or transplant within three-years (Table E2). Non-specific interstitial pneumonia (NSIP) was most common among patients with non-IPF IIP and CTD-ILD. The median follow up time did not differ across diagnostic subtypes or immunosuppression exposure strata. There were between-center differences, justifying center-specific weighting (Table E3). Initial immunosuppressant choice varied across centers, which may reflect patient mix and evolving practices. During the study timeframe, antifibrotics were initiated in 15% of non-IPF IIP, 14% of fHP, and 9% of CTD-ILD patients, with median time to initiation of 1.79 years (IQR 0.72–3.00), 2.64 years (IQR 1.28–3.00), and 3.00 years (IQR 2.26–3.00), respectively.",
+   "translation": "在筛查的 3398 例非 IPF 纤维化型 ILD 患者中，2270 例符合纳入标准，其中非 IPF IIP 1022 例、fHP 544 例、CTD-ILD 704 例（图 2）。在各诊断亚型中，CTD-ILD 患者更年轻、女性比例更高，三年内死亡或移植率更低（表 E2）。非特异性间质性肺炎（NSIP）在非 IPF IIP 和 CTD-ILD 患者中最为常见。中位随访时间在各诊断亚型及免疫抑制暴露分层之间无差异。各中心之间存在差异，这支持采用中心特异性加权（表 E3）。各中心的初始免疫抑制剂选择不同，可能反映了患者构成和临床实践的演变。在研究期间，非 IPF IIP、fHP 和 CTD-ILD 患者中分别有 15%、14% 和 9% 启动了抗纤维化药物，中位启动时间分别为 1.79 年（IQR 0.72–3.00）、2.64 年（IQR 1.28–3.00）和 3.00 年（IQR 2.26–3.00）。",
+   "confidence": "high",
+   "refs": [
+    "F002"
+   ]
+  },
+  {
+   "id": "C002",
+   "page": 17,
+   "type": "caption",
+   "order": 32,
+   "original_text": "Figure 2: STROBE (STrengthening the Reporting of OBservational studies in Epidemiology) Diagram. *Each patient could satisfy more than one exclusion criteria. Abbreviations: IPF-idiopathic pulmonary fibrosis; ILD-interstitial lung disease; IIP-idiopathic interstitial pneumonia; PFT-pulmonary function test; IS-immunosuppression; AF-antifibrotic; MMF-mycophenolate; AZA-azathioprine; FVC-forced vital capacity; DLCO-diffusion capacity of lung for carbon monoxide; fHP-fibrotic hypersensitivity pneumonitis; CTD-connective tissue disease; iNSIP-idiopathic nonspecific interstitial pneumonia; uILD-unclassifiable interstitial lung disease; IPAF-interstitial pneumonia with autoimmune features; SSc-systemic sclerosis; RA-rheumatoid arthritis",
+   "translation": "图 2：STROBE（加强流行病学观察性研究报告）流程图。*每例患者可同时满足一条以上排除标准。缩写：IPF——特发性肺纤维化；ILD——间质性肺病；IIP——特发性间质性肺炎；PFT——肺功能检查；IS——免疫抑制；AF——抗纤维化药物；MMF——吗替麦考酚酯；AZA——硫唑嘌呤；FVC——用力肺活量；DLCO——一氧化碳弥散量；fHP——纤维化型过敏性肺炎；CTD——结缔组织病；iNSIP——特发性非特异性间质性肺炎；uILD——不可分类间质性肺病；IPAF——具有自身免疫特征的间质性肺炎；SSc——系统性硬化症；RA——类风湿关节炎。",
+   "confidence": "high",
+   "refs": [
+    "F002"
+   ]
+  },
+  {
+   "id": "S033",
+   "page": 6,
+   "type": "paragraph",
+   "order": 33,
+   "original_text": "About 30% of patients with fHP and CTD-ILD were initiated on immunosuppression within 6 months of enrollment with a median exposure time of 2.1 (IQR 0.9-3.0) and 2.5 (IQR 0.7-3.0) years, respectively (Table 1). In contrast, only 18% of non-IPF IIP were initiated on immunosuppression with a median exposure of 1.9 (IQR 0.6-3.0) years. Over half of treated patients were initiated on immunosuppression within two months of enrollment (Table E4). In general, those who were initiated on immunosuppression within 6-months were younger, predominantly female, had lower baseline lung function and lower rates of a UIP imaging pattern. However, the CCW process produced well-balanced covariates, including prognostically informative baseline age, sex, and degree of baseline lung function impairment (Figure E1).(21, 22) Additional assessments of the weighting and artificial censoring procedures are presented in the Supplemental Methods, Figure E2, and Table E5. Administrative censoring due to antifibrotic initiation was rare across immunosuppressant strategies within non-IPF IIP, fHP, and CTD-ILD subtypes (Table E6). The rate of lung function decline within the 6-month immunosuppression window did not substantially differ between those initiated on immunosuppression and those who were not (Table E7).",
+   "translation": "约 30% 的 fHP 和 CTD-ILD 患者在入组后 6 个月内启动了免疫抑制，中位暴露时间分别为 2.1 年（IQR 0.9–3.0）和 2.5 年（IQR 0.7–3.0）（表 1）。相比之下，仅 18% 的非 IPF IIP 患者启动了免疫抑制，中位暴露时间为 1.9 年（IQR 0.6–3.0）。超过半数接受治疗的患者在入组后两个月内即启动了免疫抑制（表 E4）。总体而言，6 个月内启动免疫抑制的患者更年轻、以女性为主、基线肺功能更低、UIP 影像类型比例更低。然而，CCW 过程使协变量达到了良好平衡，包括具有预后意义的基线年龄、性别和基线肺功能受损程度（图 E1）。(21, 22) 对加权及人为删失过程的其他评估见补充方法、图 E2 和表 E5。在非 IPF IIP、fHP 和 CTD-ILD 亚型中，各免疫抑制策略下因启动抗纤维化药物而发生的管理性删失都很少见（表 E6）。在 6 个月免疫抑制窗内，启动与未启动免疫抑制者的肺功能下降速度无实质性差异（表 E7）。",
+   "confidence": "high",
+   "refs": [
+    "T001"
+   ]
+  },
+  {
+   "id": "C006",
+   "page": 21,
+   "type": "caption",
+   "order": 33,
+   "original_text": "Table 1: Patient characteristics for the unweighted and post-treatment window weighted datasets stratified by non-IPF fibrotic ILD subtype. Abbreviations: IPF-idiopathic pulmonary fibrosis; ILD-interstitial lung disease; fHP-fibrotic hypersensitivity pneumonitis; CTD-connective tissue disease; SMD-standardized mean difference; UTSW-University of Texas Southwestern; RBH-Royal Brompton and Harefield; SD-standard deviation; FVC-forced vital capacity; DLCO-diffusion capacity of lung for carbon monoxide; HRCT-high resolution computed tomography; UIP- definite or probable usual interstitial pneumonia; NSIP-nonspecific interstitial pneumonia; BIP-bronchiolocentric interstitial pneumonia, previously recognized as hypersensitivity pneumonitis pattern; IS-immunosuppression; IQR-interquartile range",
+   "translation": "表 1：按非 IPF 纤维化型 ILD 亚型分层的未加权数据集与治疗窗后加权数据集的患者特征。缩写：IPF——特发性肺纤维化；ILD——间质性肺病；fHP——纤维化型过敏性肺炎；CTD——结缔组织病；SMD——标准化均值差；UTSW——德克萨斯大学西南医学中心；RBH——皇家布朗普顿与哈尔菲尔德医院；SD——标准差；FVC——用力肺活量；DLCO——一氧化碳弥散量；HRCT——高分辨率计算机断层扫描；UIP——确定或很可能的普通型间质性肺炎；NSIP——非特异性间质性肺炎；BIP——细支气管中心性间质性肺炎（既往称为过敏性肺炎型）；IS——免疫抑制；IQR——四分位距。",
+   "confidence": "high",
+   "refs": [
+    "T001"
+   ]
+  },
+  {
+   "id": "S034",
+   "page": 7,
+   "type": "paragraph",
+   "order": 34,
+   "original_text": "There were 1492 patients with IPF screened, of which 1063 met entry criteria for the comparator cohort (Figure 2). As expected, the IPF patients were older, predominantly male, with high rates of UIP pattern, and low rates of immunosuppressant exposure (Table E8). However, weighting effectively mitigated differences between immunosuppressant exposed and unexposed (Figure E1).",
+   "translation": "共筛查 1492 例 IPF 患者，其中 1063 例符合对照队列的入组标准（图 2）。正如预期，IPF 患者年龄更大、以男性为主、UIP 类型比例高、免疫抑制剂暴露率低（表 E8）。然而，加权有效缩小了免疫抑制暴露者与未暴露者之间的差异（图 E1）。",
+   "confidence": "high",
+   "refs": [
+    "F002"
+   ]
+  },
+  {
+   "id": "S035",
+   "page": 7,
+   "type": "heading",
+   "order": 35,
+   "original_text": "Effect of immunosuppression on survival",
+   "translation": "免疫抑制对生存的影响",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S036",
+   "page": 7,
+   "type": "paragraph",
+   "order": 36,
+   "original_text": "Immunosuppressant initiation within 6-months was not associated with survival benefit for non-IPF IIP, fHP, or CTD-ILD (Figure 3). Instead, immunosuppression was associated with higher three-year risk of death or transplant for non-IPF IIP (HR 1.38, 95% CI 1.04-1.84) and fHP (HR 1.62, 95% CI 1.09-2.40), similar to IPF (HR 1.45, 95% CI 1.02-2.05). Sensitivity analyses varying the IPCW model specifications as well as treatment initiation window yielded consistent direction of effects across fibrotic ILD subtypes (Table E9, Figure E3). Confounding sensitivity analyses produced E-values of 2.10 for non-IPF IIP and 2.62 for fHP, which was larger than the adjusted hazard ratio for known prognostic variables, including age >65 (aHR 1.47), male sex (aHR 1.83), FVC <70% (aRR 1.57), DLCO <50% (aHR 1.93), and radiographic UIP (aHR 1.37). For a single-confounder framework, this indicates that substantial unmeasured confounding would be required to fully explain the observed immunosuppression-survival association.(18) However, these E-values do not account for joint effects from multiple factors that may influence treatment decisions and outcomes. The effects of azathioprine and mycophenolate were generally similar (Table E10). Within subgroups of non-IPF IIP, immunosuppression was associated with worse survival in those with uILD (HR 1.40, 95% CI 1.01-1.94); however, immunosuppression was not associated with a differential mortality risk for other non-IPF IIP or CTD-ILD subtypes (Figure E4).",
+   "translation": "6 个月内启动免疫抑制在非 IPF IIP、fHP 或 CTD-ILD 中均未带来生存获益（图 3）。相反，免疫抑制与非 IPF IIP（HR 1.38，95% CI 1.04–1.84）和 fHP（HR 1.62，95% CI 1.09–2.40）更高的三年死亡或移植风险相关，与 IPF（HR 1.45，95% CI 1.02–2.05）的情况相似。改变 IPCW 模型设定及治疗启动窗的敏感性分析，在各纤维化型 ILD 亚型中得到了方向一致的效应（表 E9，图 E3）。混杂敏感性分析得到非 IPF IIP 的 E 值为 2.10、fHP 的 E 值为 2.62，均大于已知预后变量的校正风险比，包括年龄 >65 岁（aHR 1.47）、男性（aHR 1.83）、FVC <70%（aRR 1.57）、DLCO <50%（aHR 1.93）和影像学 UIP（aHR 1.37）。在单一混杂因素的框架下，这表明需要相当强的未测量混杂才能完全解释所观察到的免疫抑制–生存关联。(18) 然而，这些 E 值并未考虑可能共同影响治疗决策和结局的多个因素的联合效应。硫唑嘌呤和吗替麦考酚酯的效应大体相似（表 E10）。在非 IPF IIP 的亚组中，免疫抑制与 uILD 患者更差的生存相关（HR 1.40，95% CI 1.01–1.94）；但在其他非 IPF IIP 或 CTD-ILD 亚型中，免疫抑制与死亡风险差异无关（图 E4）。",
+   "confidence": "high",
+   "refs": [
+    "F003"
+   ]
+  },
+  {
+   "id": "C003",
+   "page": 18,
+   "type": "caption",
+   "order": 36,
+   "original_text": "Figure 3: Impact of immunosuppressant initiation within 6-months of enrollment compared to never initiating on three-year death or lung transplantation across non-IPF fibrotic ILD subtypes. Hazard ratios represent per-protocol effects estimated using clone-censor-weighting framework. Abbreviations: HR-hazard ratio; IPF-idiopathic pulmonary fibrosis; ILD-interstitial lung disease; IIP-idiopathic interstitial pneumonia; fHP-fibrotic hypersensitivity pneumonitis; CTD-connective tissue disease; IS-immunosuppression",
+   "translation": "图 3：在各非 IPF 纤维化型 ILD 亚型中，入组后 6 个月内启动免疫抑制与从不启动相比，对三年死亡或肺移植的影响。风险比代表采用克隆–删失–加权框架估计的符合方案效应。缩写：HR——风险比；IPF——特发性肺纤维化；ILD——间质性肺病；IIP——特发性间质性肺炎；fHP——纤维化型过敏性肺炎；CTD——结缔组织病；IS——免疫抑制。",
+   "confidence": "high",
+   "refs": [
+    "F003"
+   ]
+  },
+  {
+   "id": "S037",
+   "page": 7,
+   "type": "paragraph",
+   "order": 37,
+   "original_text": "To determine if immunosuppressant exposure preferentially impacted patients with higher baseline mortality risk, we derived a prognostic model incorporating age, sex, FVC DLCO, and center among immunosuppression unexposed non-IPF fibrotic ILD patients (c-index 0.75, 95% CI 0.72–0.78). As expected, patients in the high-risk group were older, more likely to be male, with more severe lung function impairment (Table E11). We found no differential effect of immunosuppression in high-risk patients (HR 1.05, 95% CI 0.82–1.33), whereas immunosuppressant initiation within 6 months was associated with worse mortality in low-risk patients (HR 2.77, 95% CI 1.43-5.37) (Figure 4).",
+   "translation": "为确定免疫抑制暴露是否对基线死亡风险较高的患者影响更大，我们在未暴露于免疫抑制的非 IPF 纤维化型 ILD 患者中，建立了一个纳入年龄、性别、FVC、DLCO 和中心的预后模型（c 指数 0.75，95% CI 0.72–0.78）。正如预期，高风险组患者年龄更大、男性更多、肺功能受损更严重（表 E11）。我们发现免疫抑制在高风险患者中无差异性效应（HR 1.05，95% CI 0.82–1.33），而在低风险患者中，6 个月内启动免疫抑制与更高的死亡率相关（HR 2.77，95% CI 1.43–5.37）（图 4）。",
+   "confidence": "high",
+   "refs": [
+    "F004"
+   ]
+  },
+  {
+   "id": "C004",
+   "page": 19,
+   "type": "caption",
+   "order": 37,
+   "original_text": "Figure 4: Impact of immunosuppressant initiation within 6-months of enrollment compared to never initiating on three-year death or lung transplantation across baseline predicted mortality risk strata. Hazard ratios represent per-protocol effects estimated using clone-censor-weighting framework. Predicted mortality risk estimated using baseline age, sex, FVC percent predicted, DLCO percent predicted, and center and stratified by tertiles of predicted risk. Abbreviations: HR-hazard ratio; IPF-idiopathic pulmonary fibrosis; ILD-interstitial lung disease; IS-immunosuppression.",
+   "translation": "图 4：在不同基线预测死亡风险分层中，入组后 6 个月内启动免疫抑制与从不启动相比，对三年死亡或肺移植的影响。风险比代表采用克隆–删失–加权框架估计的符合方案效应。预测死亡风险基于基线年龄、性别、FVC 占预计值百分比、DLCO 占预计值百分比和中心估计，并按预测风险三分位分层。缩写：HR——风险比；IPF——特发性肺纤维化；ILD——间质性肺病；IS——免疫抑制。",
+   "confidence": "high",
+   "refs": [
+    "F004"
+   ]
+  },
+  {
+   "id": "S038",
+   "page": 7,
+   "type": "heading",
+   "order": 38,
+   "original_text": "Effect of immunosuppression on lung function trajectory",
+   "translation": "免疫抑制对肺功能变化轨迹的影响",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S039",
+   "page": 7,
+   "type": "paragraph",
+   "order": 39,
+   "original_text": "Of the 2270 included non-IPF fibrotic ILD patients, 1811 (80%) and 1535 (68%) had longitudinal FVC and DLCO measurements, respectively (Table E12). Across subtypes, there were no significant differences in FVC and DLCO decline between immunosuppression within 6 months of enrollment compared to no immunosuppression initiation (Figure 5, Table E13, Table E14).",
+   "translation": "在纳入的 2270 例非 IPF 纤维化型 ILD 患者中，分别有 1811 例（80%）和 1535 例（68%）具有纵向 FVC 和 DLCO 测量数据（表 E12）。在各亚型中，入组后 6 个月内启动免疫抑制与不启动免疫抑制相比，FVC 和 DLCO 的下降均无显著差异（图 5，表 E13，表 E14）。",
+   "confidence": "high",
+   "refs": [
+    "F005"
+   ]
+  },
+  {
+   "id": "C005",
+   "page": 20,
+   "type": "caption",
+   "order": 39,
+   "original_text": "Figure 5: Impact of immunosuppressant initiation within 6-months of enrollment compared to never initiating on longitudinal forced vital capacity (FVC) and diffusion capacity of lung for carbon monoxide (DLCO) changes across non-IPF fibrotic ILD subtypes. Abbreviations: IPF-idiopathic pulmonary fibrosis; ILD-interstitial lung disease; IIP-idiopathic interstitial pneumonia; fHP-fibrotic hypersensitivity pneumonitis; CTD-connective tissue disease; IS-immunosuppression",
+   "translation": "图 5：在各非 IPF 纤维化型 ILD 亚型中，入组后 6 个月内启动免疫抑制与从不启动相比，对用力肺活量（FVC）和一氧化碳弥散量（DLCO）纵向变化的影响。缩写：IPF——特发性肺纤维化；ILD——间质性肺病；IIP——特发性间质性肺炎；fHP——纤维化型过敏性肺炎；CTD——结缔组织病；IS——免疫抑制。",
+   "confidence": "high",
+   "refs": [
+    "F005"
+   ]
+  },
+  {
+   "id": "S040",
+   "page": 8,
+   "type": "heading",
+   "order": 40,
+   "original_text": "Discussion",
+   "translation": "讨论",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S041",
+   "page": 8,
+   "type": "paragraph",
+   "order": 41,
+   "original_text": "In this study, we found that immunosuppressant initiation within 6-months was not associated with improved transplant-free survival or lung function trajectory. In contrast to our initial hypothesis, immunosuppression was associated with higher mortality risk in fHP and non-IPF IIP, approximating the harmful survival effect in our comparator IPF cohort and prior clinical trials.(23) In addition, immunosuppression conferred worse survival in non-IPF fibrotic ILD patients with lower predicted baseline mortality risk, while no differential survival effect was observed in high-risk patients. While these data are not a substitute for a well-designed randomized controlled trial, our approach was specifically designed to mitigate systematic biases that commonly distort observational treatment effect estimates. To our knowledge, this is the first study using target trial emulation methodology to isolate immunosuppressant effects on clinically relevant ILD endpoints, revealing potential harms in subgroups of non-IPF fibrotic ILD, and underscoring the need to re-examine the routine use of first-line immunosuppression.",
+   "translation": "本研究发现，6 个月内启动免疫抑制与无移植生存或肺功能变化轨迹的改善无关。与我们最初的假设相反，免疫抑制在 fHP 和非 IPF IIP 中与更高的死亡风险相关，接近对照 IPF 队列及既往临床试验中所见的有害生存效应。(23) 此外，在基线预测死亡风险较低的非 IPF 纤维化型 ILD 患者中，免疫抑制导致更差的生存，而在高风险患者中未观察到生存效应差异。虽然这些数据不能替代一项设计良好的随机对照试验，但我们的方法专门针对那些常常扭曲观察性治疗效应估计的系统性偏倚而设计。据我们所知，这是首个采用目标试验模拟方法来分离免疫抑制剂对具有临床意义的 ILD 终点之效应的研究，它揭示了非 IPF 纤维化型 ILD 亚组中的潜在危害，并强调有必要重新审视一线免疫抑制的常规使用。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S042",
+   "page": 8,
+   "type": "paragraph",
+   "order": 42,
+   "original_text": "Most data supporting the use of immunosuppression for non-IPF ILD arise from retrospective, observational studies.(24-30) While prior retrospective studies have found stabilization and improvement of lung function with immunosuppression, we found no differential effect on FVC or DLCO trajectory within any ILD subtype. The divergence of our results from some prior retrospective studies likely reflects the ability of the CCW framework to reduce confounding by indication that may have inflated previously observed benefits. Traditional observational methods, such as propensity score adjustment, matching, and standard IPTW/IPCW, address measured confounding but fail to adequately account for time-dependent treatment patterns and immortal time inherent to immunosuppressive prescribing in ILD. Clone-censor-weighting directly emulates a per-protocol target trial by assigning patients to all compatible strategies at baseline and censoring when deviations occur. This framework mitigates immortal time bias, accommodates explicit treatment windows, and produces estimands that reflect sustained treatment strategies rather than vague “ever vs. never” treated.(10, 11, 31-33) These strengths are especially relevant in ILD, where treatment decisions evolve with symptoms, physiology, and imaging, and samples sizes are relatively modest. By using CCW to emulate a pragmatic per-protocol trial, our study provides a more rigorous estimate of the real-world impact of immunosuppression in commonly treated ILD subtypes.",
+   "translation": "支持在非 IPF ILD 中使用免疫抑制的数据大多来自回顾性观察研究。(24-30) 既往回顾性研究发现免疫抑制可使肺功能稳定甚至改善，而我们在任何 ILD 亚型中均未发现其对 FVC 或 DLCO 轨迹有差异性影响。我们的结果与部分既往回顾性研究不同，很可能反映了 CCW 框架能够减少适应证混杂，而这种混杂可能夸大了先前观察到的获益。传统观察性方法，如倾向评分校正、匹配以及标准 IPTW/IPCW，可以处理已测量的混杂，却不足以应对 ILD 免疫抑制处方中固有的时间依赖性治疗模式和不朽时间。克隆–删失–加权通过在基线时将患者分配到所有相容的策略、并在发生偏离时删失，直接模拟了一项符合方案的目标试验。该框架减轻了不朽时间偏倚，容纳了明确的治疗窗，所产生的估计目标（estimand）反映的是持续的治疗策略，而非含糊的“曾用 vs. 从未用”。(10, 11, 31-33) 这些优势在 ILD 中尤为重要，因为治疗决策会随症状、生理指标和影像变化而调整，而样本量又相对有限。通过使用 CCW 模拟一项实用性的符合方案试验，本研究为常规治疗的 ILD 亚型中免疫抑制的真实世界影响提供了更严谨的估计。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S043",
+   "page": 8,
+   "type": "paragraph",
+   "order": 43,
+   "original_text": "Importantly, we also found no evidence that immunosuppression improved survival in non-IPF fibrotic ILD. Survival remains a critically important endpoint in ILD yet is difficult to evaluate in clinical trials due to short follow-up and limited events. To address this, we explicitly aligned inclusion eligibility, treatment windows, and extended follow-up to three years, maximizing our ability to detect survival benefit. Nonetheless, no survival advantage was observed. We recapitulated the harmful effect of immunosuppression in IPF, consistent with the PANTHER-IPF trial, further supporting the reliability of our methods.(1) We also evaluated treatment initiation up to one year after enrollment to account for delayed prescribing during diagnostic evaluation as well as those initiated earlier due to more severe baseline impairment. Across all target trial specifications, we found no survival benefit.",
+   "translation": "重要的是，我们也未发现免疫抑制能改善非 IPF 纤维化型 ILD 生存的证据。生存仍是 ILD 中极其重要的终点，但由于随访时间短、事件数有限，在临床试验中难以评估。为此，我们明确对齐了入组资格与治疗窗，并将随访延长至三年，以最大限度提高检测生存获益的能力。尽管如此，仍未观察到生存优势。我们重现了免疫抑制在 IPF 中的有害效应，与 PANTHER-IPF 试验一致，这进一步支持了本研究方法的可靠性。(1) 我们还评估了入组后最长一年内的治疗启动，以涵盖诊断评估期间延迟处方的情况，以及因基线损害更严重而更早启动治疗的情况。在所有目标试验设定下，我们均未发现生存获益。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S044",
+   "page": 9,
+   "type": "paragraph",
+   "order": 44,
+   "original_text": "Our findings should also be interpreted in the context of prior trials evaluating immunosuppression in certain non-IPF ILD subtypes, particularly in CTD-ILD. Trials with rituximab and cyclophosphamide have demonstrated preservation of FVC in patients with SSC-ILD, CTD-ILD, and patients with idiopathic NSIP.(34-36) These immunosuppressive infusions are generally reserved as second-line therapies in ILD clinical practice. In contrast, our study focused on first-line oral immunosuppressants, which are often initiated at an earlier disease stage, representing a fundamentally different risk profile.(37) The Scleroderma Lung Study II showed mycophenolate to be non-inferior to cyclophosphamide in preserving FVC change.(38) However, direct comparison to our results is limited. Our study included a more heterogeneous population with variable timing of treatment initiation which differ from trial conditions. Accordingly, the absence of a detectable survival or lung function benefit in CTD-ILD should be interpreted cautiously and may reflect differences in study design, treatment context, and residual confounding. In contrast, for ILD subtypes without randomized trial data, including fHP, non-IPF IIP, and several CTD-ILD subgroups, these findings provide important real-world evidence, suggesting that initiation of mycophenolate or azathioprine was not associated with improved outcomes. While selected patients may still benefit from immunosuppression, our results highlight the substantial heterogeneity within these populations and suggest that diagnosis alone is insufficient to predict treatment response.",
+   "translation": "我们的发现还应结合既往在某些非 IPF ILD 亚型（尤其是 CTD-ILD）中评估免疫抑制的试验来解读。利妥昔单抗和环磷酰胺的试验已证明可在 SSc-ILD、CTD-ILD 和特发性 NSIP 患者中维持 FVC。(34-36) 在 ILD 临床实践中，这些免疫抑制输注疗法通常作为二线治疗保留使用。相比之下，本研究关注的是一线口服免疫抑制剂，这类药物常在更早的疾病阶段启动，代表着根本不同的风险特征。(37) 硬皮病肺研究 II（Scleroderma Lung Study II）显示，在维持 FVC 变化方面吗替麦考酚酯不劣于环磷酰胺。(38) 然而，与本研究结果的直接比较有限。本研究纳入的人群异质性更大、治疗启动时机不一，与试验条件不同。因此，CTD-ILD 中未检测到生存或肺功能获益这一结果应谨慎解读，可能反映了研究设计、治疗背景和残余混杂的差异。相反，对于缺乏随机试验数据的 ILD 亚型，包括 fHP、非 IPF IIP 及若干 CTD-ILD 亚组，这些发现提供了重要的真实世界证据，提示启动吗替麦考酚酯或硫唑嘌呤与结局改善无关。虽然部分特定患者仍可能从免疫抑制中获益，但我们的结果凸显了这些人群内部的显著异质性，并提示仅凭诊断不足以预测治疗反应。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S045",
+   "page": 9,
+   "type": "paragraph",
+   "order": 45,
+   "original_text": "Taken together, these results call into question the practice of immunosuppressant initiation for patients with non-IPF fibrotic ILD. Although this practice is based on biological rationale of immune dysregulation and autoantibody production in fHP and CTD-ILD(39, 40) and supported by prior studies suggesting pulmonary function stabilization,(24-28, 34-36, 38) our results did not demonstrate improved survival or lung function at the population level and identified potential harm in select subgroups. These observations should not be interpreted as evidence against immunosuppression in all patients; certain clinical phenotypes may derive benefit that is obscured in broader fibrotic ILD populations. Still, our findings are biologically plausible. uILD is a heterogeneous subtype that often includes patients with UIP-like radiographic patterns similar to IPF,(41) for which immunosuppression is known to be harmful.(23) Similarly, subsets of fHP exhibit UIP-like radiographic features that predispose to IPF-like survival risk,(42, 43) raising the concern that immunosuppression in these patients may confer harm analogous to that observed in IPF.",
+   "translation": "综上所述，这些结果对非 IPF 纤维化型 ILD 患者启动免疫抑制的做法提出了质疑。尽管这一做法有其生物学依据——fHP 和 CTD-ILD 中存在免疫失调和自身抗体产生，(39, 40) 并得到了提示肺功能可趋于稳定的既往研究的支持，(24-28, 34-36, 38) 但我们的结果在人群层面未显示生存或肺功能改善，并在部分亚组中发现了潜在危害。这些观察不应被解读为反对所有患者使用免疫抑制的证据；某些临床表型可能确有获益，只是在更广泛的纤维化型 ILD 人群中被掩盖了。尽管如此，我们的发现在生物学上是合理的。uILD 是一个异质性亚型，常包含具有类似 IPF 的 UIP 样影像学表现的患者，(41) 而免疫抑制在 IPF 中已知有害。(23) 同样，部分 fHP 表现出 UIP 样影像学特征，使其具有类似 IPF 的生存风险，(42, 43) 由此引发担忧：免疫抑制在这些患者中可能带来与 IPF 中类似的危害。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S046",
+   "page": 9,
+   "type": "paragraph",
+   "order": 46,
+   "original_text": "Our findings challenge routine, diagnosis-based immunosuppression in fibrotic ILD patients and underscore the need to shift toward treatment strategies guided by objective markers of disease biology and activity. This is aligned with earlier non-IPF observational signals, especially in fHP and uILD where mycophenolate or azathioprine exposure has been associated with worse transplant-free survival, particularly in patients with short leukocyte telomere length.(25, 44, 45) Applying uniform anti-inflammatory therapy across heterogeneous ILD subtypes risks obscuring meaningful biologic differences and exposing vulnerable subgroups to preventable harm. However, emerging data suggest that proteomic-defined molecular endotypes may identify subgroups who may benefit from immunomodulatory therapy.(46) Therefore, future progress will depend on randomized trials and the development of validated physiologic, radiographic, and molecular biomarkers that can precisely identify patients who would benefit from targeting inflammation versus those who may be harmed by it.",
+   "translation": "我们的发现对纤维化型 ILD 患者中常规的、基于诊断的免疫抑制提出了挑战，并强调需要转向以疾病生物学和疾病活动度的客观标志物为指导的治疗策略。这与既往非 IPF 观察研究的信号一致，尤其是在 fHP 和 uILD 中，吗替麦考酚酯或硫唑嘌呤暴露与更差的无移植生存相关，在白细胞端粒长度较短的患者中尤为明显。(25, 44, 45) 在异质性的 ILD 亚型中统一使用抗炎治疗，有可能掩盖有意义的生物学差异，并使易感亚组遭受本可避免的伤害。不过，新近数据提示，基于蛋白质组学定义的分子内型（endotype）或可识别出可能从免疫调节治疗中获益的亚组。(46) 因此，未来的进展将取决于随机试验，以及经过验证的生理、影像和分子生物标志物的开发，以便精确区分哪些患者会从针对炎症的治疗中获益、哪些患者可能因此受害。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S047",
+   "page": 10,
+   "type": "paragraph",
+   "order": 47,
+   "original_text": "This study has notable limitations. Despite adjustment for major determinants of treatment initiation and prognosis, unmeasured and residual confounding remains possible given the complexity of treatment decision-making in ILD. Although E-values were calculated to contextualize the potential magnitude of unmeasured confounding, they do not capture bias arising from multiple correlated factors or evolving disease severity which may jointly influence treatment selection and prognosis. Trial emulation using CCW necessarily introduces selection through prespecified eligibility criteria, analogous to selection in randomized clinical trials. Patients were drawn from academic ILD centers, where referred patients often represent more severe, treatment-refractory, or complex diagnostic cases, and were further selected by trial-like restrictions and non-missing key variables to support valid weight estimation and confounding control. As with clinical trials, this careful selection may limit generalizability but does not negate the informativeness of the findings. Our analyses pragmatically combined mycophenolate and azathioprine as these are the most common steroid-sparing agents used in non-IPF ILD, though are not pharmacologically identical. Variation in dose, duration, and adherence may have introduced treatment-level heterogeneity. We also did not evaluate the use of all immunosuppressant drugs. Nevertheless, prior work demonstrated that corticosteroid use mirrored initiation of these agents and did not produce differential outcomes.(44) We implemented time-updated IPCW to account for differential follow-up and missing data; however, residual informative dropout may persist if unmeasured variables influenced both measurement availability and outcomes. In addition, treatment initiation may be influenced by post-baseline progression that may not be fully captured by the baseline covariates or modeling; however, our descriptive analysis of the pre-treatment FVC and DLCO trajectory did not suggest that patients who were initiated on immunosuppression experienced disproportionate rapid early decline. While the CCW approach assumes accurate alignment of eligibility, treatment windows, and follow-up, and the consistent absence of a beneficial signal across multiple analytic specifications suggests that minor misalignment is unlikely to alter our conclusions. Lastly, because outcomes were assessed over a three-year period, we could not distinguish non-ILD-related competing causes of death.(47) Collectively, while these limitations warrant caution, the overall pattern and stability of our results suggest that the absence of benefit, and the potential for harm with immunosuppression in some fibrotic ILD subgroups, is unlikely to be explained by methodological artifact alone.",
+   "translation": "本研究存在若干值得注意的局限性。尽管已对治疗启动和预后的主要决定因素进行了校正，但鉴于 ILD 治疗决策的复杂性，仍可能存在未测量和残余混杂。虽然计算了 E 值来说明未测量混杂的可能量级，但 E 值无法反映由多个相关因素或不断变化的疾病严重程度所致的偏倚，而这些因素可能共同影响治疗选择和预后。使用 CCW 进行试验模拟时，预设的入选标准必然带来选择，这与随机临床试验中的选择类似。患者来自学术性 ILD 中心，转诊患者往往病情更重、治疗更难奏效或诊断更复杂；此外，为支持有效的权重估计和混杂控制，又按照类似试验的限制条件以及关键变量无缺失进一步筛选。与临床试验一样，这种严格筛选可能限制结果的外推性，但并不否定结果的信息价值。我们的分析出于实用考虑合并了吗替麦考酚酯和硫唑嘌呤，因为二者是非 IPF ILD 中最常用的激素节制（steroid-sparing）药物，但二者在药理上并不相同。剂量、疗程和依从性的差异可能带来治疗层面的异质性。我们也未评估所有免疫抑制药物的使用。不过，既往研究表明，糖皮质激素的使用与这些药物的启动同步，且并未导致结局差异。(44) 我们采用随时间更新的 IPCW 来处理随访差异和缺失数据；然而，若未测量变量同时影响测量可得性和结局，仍可能残留信息性失访。此外，治疗启动可能受到基线后病情进展的影响，而基线协变量或模型未必能完全捕捉这一点；不过，我们对治疗前 FVC 和 DLCO 轨迹的描述性分析并未提示启动免疫抑制的患者存在不成比例的早期快速下降。CCW 方法假定入选资格、治疗窗和随访准确对齐，而多种分析设定下一致缺乏获益信号，提示轻微的对齐偏差不太可能改变我们的结论。最后，由于结局评估跨越三年，我们无法区分与 ILD 无关的竞争性死因。(47) 总之，尽管这些局限性提示需谨慎，但结果的整体模式和稳定性表明，免疫抑制在部分纤维化型 ILD 亚组中缺乏获益乃至可能有害，这一点不太可能仅由方法学假象来解释。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S048",
+   "page": 10,
+   "type": "heading",
+   "order": 48,
+   "original_text": "Conclusion",
+   "translation": "结论",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S049",
+   "page": 10,
+   "type": "paragraph",
+   "order": 49,
+   "original_text": "In conclusion, in this multicenter target trial emulation, immunosuppressant initiation was not associated with improved survival or lung function trajectory in any of the studied fibrotic ILD subtypes and was associated with worse outcomes select phenotypes, particularly uILD and fHP. These findings challenge the routine use of empiric, diagnosis-based immunosuppression and emphasize the need for biologically informed, risk-stratified treatment strategies. Moving forward, improving patient outcomes will require randomized trials with biomarker-driven approaches to separate patients who truly benefit from targeting inflammation from those in whom these therapies confer unnecessary risk.",
+   "translation": "总之，在这项多中心目标试验模拟中，在所研究的任何纤维化型 ILD 亚型中，启动免疫抑制均未与生存或肺功能变化轨迹的改善相关，并在部分表型（尤其是 uILD 和 fHP）中与更差的结局相关。这些发现对经验性、基于诊断的免疫抑制的常规使用提出了挑战，并强调需要以生物学为依据、按风险分层的治疗策略。展望未来，改善患者结局需要开展以生物标志物为驱动的随机试验，以区分真正能从抗炎治疗中获益的患者与因此承受不必要风险的患者。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S050",
+   "page": 11,
+   "type": "heading",
+   "order": 50,
+   "original_text": "Supplementary Material, Funding and Disclosures",
+   "translation": "补充材料、资助与利益披露",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S051",
+   "page": 11,
+   "type": "paragraph",
+   "order": 51,
+   "original_text": "Supplementary Material: Refer to Web version on PubMed Central for supplementary material.",
+   "translation": "补充材料：请参阅 PubMed Central 上的网络版本。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S052",
+   "page": 11,
+   "type": "paragraph",
+   "order": 52,
+   "original_text": "Funding: National Heart Lung and Blood Institute- K23HL171871 (JVP); K23HL146942 (AA), R01HL169166 (JMO), R01HL166290 (JMO), R01HL176839 (CAN); Nina Ireland Program for Lung Health (PJW); Asthma+Lung UK Chair of Respiratory Research (PLM)",
+   "translation": "资助：美国国家心肺血液研究所（NHLBI）——K23HL171871（JVP）；K23HL146942（AA）、R01HL169166（JMO）、R01HL166290（JMO）、R01HL176839（CAN）；Nina Ireland 肺健康项目（PJW）；Asthma+Lung UK 呼吸研究讲席（PLM）。",
+   "confidence": "high",
+   "refs": []
+  },
+  {
+   "id": "S053",
+   "page": 11,
+   "type": "paragraph",
+   "order": 53,
+   "original_text": "Disclosures (summary of the source paragraph on p.11): several authors report grant funding from NIH/NHLBI; multiple authors report consulting, advisory, speaker or steering-committee fees from industry (notably Boehringer Ingelheim, which markets nintedanib, as well as Roche/Genentech, GSK, AstraZeneca and others); DK serves as Chief Medical Officer of Eicos Sciences and holds stock options; JMO and PLM hold stock options in Gatehouse Bio and Qureight respectively; CAN reports a submitted US patent application outside the scope of this work. ARY, NH, LY and TNA report no conflicts of interest.",
+   "translation": "利益披露（第 11 页原文段落的概要，非逐字翻译）：多名作者获得 NIH/NHLBI 资助；多名作者报告来自企业的咨询、顾问、讲者或指导委员会费用（尤其是尼达尼布的生产商勃林格殷格翰，以及罗氏/基因泰克、GSK、阿斯利康等）；DK 担任 Eicos Sciences 首席医学官并持有期权；JMO、PLM 分别持有 Gatehouse Bio、Qureight 期权；CAN 有一项与本研究无关的美国专利申请。ARY、NH、LY、TNA 声明无利益冲突。",
+   "confidence": "medium",
+   "refs": []
+  }
+ ],
+ "pages": [
+  {
+   "page": 1,
+   "block_ids": [
+    "S001",
+    "S002"
+   ]
+  },
+  {
+   "page": 2,
+   "block_ids": [
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010"
+   ]
+  },
+  {
+   "page": 3,
+   "block_ids": [
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S016",
+    "S017",
+    "S018"
+   ]
+  },
+  {
+   "page": 4,
+   "block_ids": [
+    "S019",
+    "S020",
+    "S021",
+    "S022",
+    "S023",
+    "S024"
+   ]
+  },
+  {
+   "page": 5,
+   "block_ids": [
+    "S025",
+    "S026",
+    "S027",
+    "S028"
+   ]
+  },
+  {
+   "page": 6,
+   "block_ids": [
+    "S029",
+    "S030",
+    "S031",
+    "S032",
+    "S033"
+   ]
+  },
+  {
+   "page": 7,
+   "block_ids": [
+    "S034",
+    "S035",
+    "S036",
+    "S037",
+    "S038",
+    "S039"
+   ]
+  },
+  {
+   "page": 8,
+   "block_ids": [
+    "S040",
+    "S041",
+    "S042",
+    "S043"
+   ]
+  },
+  {
+   "page": 9,
+   "block_ids": [
+    "S044",
+    "S045",
+    "S046"
+   ]
+  },
+  {
+   "page": 10,
+   "block_ids": [
+    "S047",
+    "S048",
+    "S049"
+   ]
+  },
+  {
+   "page": 11,
+   "block_ids": [
+    "S050",
+    "S051",
+    "S052",
+    "S053"
+   ]
+  },
+  {
+   "page": 16,
+   "block_ids": [
+    "C001"
+   ]
+  },
+  {
+   "page": 17,
+   "block_ids": [
+    "C002"
+   ]
+  },
+  {
+   "page": 18,
+   "block_ids": [
+    "C003"
+   ]
+  },
+  {
+   "page": 19,
+   "block_ids": [
+    "C004"
+   ]
+  },
+  {
+   "page": 20,
+   "block_ids": [
+    "C005"
+   ]
+  },
+  {
+   "page": 21,
+   "block_ids": [
+    "C006"
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "id": "F001",
+   "page": 16,
+   "caption_id": "C001",
+   "image_path": "assets/fig1.jpg",
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S023",
+   "alt_text": "Fig. 1  克隆–删失–加权研究设计示意",
+   "crop_note": "embedded image extracted losslessly"
+  },
+  {
+   "id": "F002",
+   "page": 17,
+   "caption_id": "C002",
+   "image_path": "assets/fig2.jpg",
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S032",
+   "alt_text": "Fig. 2  STROBE 患者流程图",
+   "crop_note": "embedded image extracted losslessly"
+  },
+  {
+   "id": "T001",
+   "page": [
+    21,
+    22
+   ],
+   "caption_id": "C006",
+   "image_path": [
+    "assets/table1_part1.png",
+    "assets/table1_part2.png"
+   ],
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S033",
+   "alt_text": "Table 1  各非 IPF 纤维化型 ILD 亚型未加权与 6 个月治疗窗后加权数据集的患者特征",
+   "crop_note": "rotated page render, approximate tight crop"
+  },
+  {
+   "id": "F003",
+   "page": 18,
+   "caption_id": "C003",
+   "image_path": "assets/fig3.jpg",
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S036",
+   "alt_text": "Fig. 3  各 ILD 亚型中免疫抑制对三年死亡或肺移植的影响",
+   "crop_note": "embedded image extracted losslessly"
+  },
+  {
+   "id": "F004",
+   "page": 19,
+   "caption_id": "C004",
+   "image_path": "assets/fig4.jpg",
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S037",
+   "alt_text": "Fig. 4  按基线预测死亡风险分层的免疫抑制效应",
+   "crop_note": "embedded image extracted losslessly"
+  },
+  {
+   "id": "F005",
+   "page": 20,
+   "caption_id": "C005",
+   "image_path": "assets/fig5.jpg",
+   "bbox": null,
+   "placement_hint": "near_first_mention",
+   "placed_after": "S039",
+   "alt_text": "Fig. 5  免疫抑制对纵向 FVC 与 DLCO 变化的影响",
+   "crop_note": "embedded image extracted losslessly"
+  }
+ ],
+ "equations": [],
+ "glossary": [
+  {
+   "term": "ILD",
+   "translation": "间质性肺病",
+   "note": "interstitial lung disease"
+  },
+  {
+   "term": "IPF",
+   "translation": "特发性肺纤维化",
+   "note": "idiopathic pulmonary fibrosis"
+  },
+  {
+   "term": "non-IPF IIP",
+   "translation": "非 IPF 特发性间质性肺炎",
+   "note": "idiopathic interstitial pneumonia other than IPF"
+  },
+  {
+   "term": "fHP",
+   "translation": "纤维化型过敏性肺炎",
+   "note": "fibrotic hypersensitivity pneumonitis"
+  },
+  {
+   "term": "CTD-ILD",
+   "translation": "结缔组织病相关 ILD",
+   "note": "connective tissue disease–associated ILD"
+  },
+  {
+   "term": "uILD",
+   "translation": "不可分类 ILD",
+   "note": "unclassifiable ILD"
+  },
+  {
+   "term": "iNSIP / NSIP",
+   "translation": "（特发性）非特异性间质性肺炎",
+   "note": ""
+  },
+  {
+   "term": "IPAF",
+   "translation": "具有自身免疫特征的间质性肺炎",
+   "note": ""
+  },
+  {
+   "term": "RA-ILD / SSc-ILD",
+   "translation": "类风湿关节炎相关 / 系统性硬化症相关 ILD",
+   "note": ""
+  },
+  {
+   "term": "UIP",
+   "translation": "普通型间质性肺炎",
+   "note": "usual interstitial pneumonia (imaging pattern)"
+  },
+  {
+   "term": "BIP",
+   "translation": "细支气管中心性间质性肺炎",
+   "note": "Table 1 only"
+  },
+  {
+   "term": "mycophenolate (MMF)",
+   "translation": "吗替麦考酚酯",
+   "note": "原文统称 mycophenolate"
+  },
+  {
+   "term": "azathioprine (AZA)",
+   "translation": "硫唑嘌呤",
+   "note": ""
+  },
+  {
+   "term": "immunosuppression (IS)",
+   "translation": "免疫抑制",
+   "note": "本文特指 MMF 或 AZA"
+  },
+  {
+   "term": "antifibrotic (AF)",
+   "translation": "抗纤维化药物",
+   "note": "nintedanib 尼达尼布 / pirfenidone 吡非尼酮"
+  },
+  {
+   "term": "CCW",
+   "translation": "克隆–删失–加权",
+   "note": "clone-censor-weighting"
+  },
+  {
+   "term": "target trial emulation",
+   "translation": "目标试验模拟",
+   "note": ""
+  },
+  {
+   "term": "per-protocol effect",
+   "translation": "符合方案效应",
+   "note": ""
+  },
+  {
+   "term": "IPTW",
+   "translation": "逆概率处理加权",
+   "note": "inverse probability of treatment weighting"
+  },
+  {
+   "term": "IPCW",
+   "translation": "逆概率删失加权",
+   "note": "inverse probability of censoring weights"
+  },
+  {
+   "term": "artificial / administrative censoring",
+   "translation": "人为删失 / 管理性删失",
+   "note": ""
+  },
+  {
+   "term": "pseudo-population",
+   "translation": "伪人群",
+   "note": ""
+  },
+  {
+   "term": "confounding by indication",
+   "translation": "适应证混杂",
+   "note": ""
+  },
+  {
+   "term": "immortal-time bias",
+   "translation": "不朽时间偏倚",
+   "note": ""
+  },
+  {
+   "term": "SMD",
+   "translation": "标准化均值差",
+   "note": "<0.1 视为平衡"
+  },
+  {
+   "term": "ESS",
+   "translation": "有效样本量",
+   "note": "effective sample size"
+  },
+  {
+   "term": "E-value",
+   "translation": "E 值",
+   "note": "未测量混杂敏感性指标"
+  },
+  {
+   "term": "transplant-free survival",
+   "translation": "无移植生存",
+   "note": "主要终点：3 年内死亡或肺移植"
+  },
+  {
+   "term": "FVC / DLCO",
+   "translation": "用力肺活量 / 一氧化碳弥散量",
+   "note": "% predicted = 占预计值百分比"
+  },
+  {
+   "term": "HR / aHR",
+   "translation": "风险比 / 校正风险比",
+   "note": ""
+  },
+  {
+   "term": "GEE",
+   "translation": "广义估计方程",
+   "note": "generalized estimating equations"
+  }
+ ],
+ "references": {
+  "page_range": [
+   11,
+   15
+  ],
+  "count": 47,
+  "translated": false
+ }
+}
