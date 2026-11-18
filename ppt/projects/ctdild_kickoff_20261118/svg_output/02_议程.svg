@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="toc">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 80 320 200">
+    <rect x="64" y="96" width="8" height="120" fill="#1F4E79"/>
+    <text x="96" y="150" font-size="34" font-weight="bold" fill="#1F4E79">议程</text>
+    <text x="96" y="200" font-size="18" fill="#5B6878">约30–40分钟 · 含答疑</text>
+  </g>
+  <g id="agenda-list" data-pptx-bounds="440 80 776 560" fill="#1D2430">
+    <g id="item-1">
+      <text x="440" y="134" font-size="32" font-weight="bold" fill="#1C9C8C">01</text>
+      <text x="520" y="132" font-size="24" font-weight="bold">为什么做</text>
+      <text x="520" y="162" font-size="16" fill="#5B6878">替尔泊肽的潜能（1页）</text>
+      <rect x="440" y="186" width="776" height="1" fill="#D5DCE4"/>
+    </g>
+    <g id="item-2">
+      <text x="440" y="240" font-size="32" font-weight="bold" fill="#1C9C8C">02</text>
+      <text x="520" y="238" font-size="24" font-weight="bold">方案设计</text>
+      <text x="520" y="268" font-size="16" fill="#5B6878">总体设计 · 研究流程 · 纳入/排除标准 · 剂量递增 · 访视节点</text>
+      <rect x="440" y="292" width="776" height="1" fill="#D5DCE4"/>
+    </g>
+    <g id="item-3">
+      <text x="440" y="346" font-size="32" font-weight="bold" fill="#1C9C8C">03</text>
+      <text x="520" y="344" font-size="24" font-weight="bold">终点评估与BALF采集</text>
+      <text x="520" y="374" font-size="16" fill="#5B6878">终点指标 · BALF采集要点 · 随机化与盲态评估</text>
+      <rect x="440" y="398" width="776" height="1" fill="#D5DCE4"/>
+    </g>
+    <g id="item-4">
+      <text x="440" y="452" font-size="32" font-weight="bold" fill="#1C9C8C">04</text>
+      <text x="520" y="450" font-size="24" font-weight="bold">安全性监测与上报</text>
+      <text x="520" y="480" font-size="16" fill="#5B6878">特别关注不良事件与处置阈值 · 上报时限与暂停入组</text>
+      <rect x="440" y="504" width="776" height="1" fill="#D5DCE4"/>
+    </g>
+    <g id="item-5">
+      <text x="440" y="558" font-size="32" font-weight="bold" fill="#1C9C8C">05</text>
+      <text x="520" y="556" font-size="24" font-weight="bold">数据质控与执行</text>
+      <text x="520" y="586" font-size="16" fill="#5B6878">数据管理与质控 · 分工与时间表 · 启动后第一批行动</text>
+    </g>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">02</text>
+  </g>
+</svg>

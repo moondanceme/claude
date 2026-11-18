@@ -1,0 +1,440 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "early",
+  "target": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "f71d01894a6384cd110a067622358344ef38ebb32f89b4fd82b73b33f581de66",
+    "file_count": 5,
+    "files": [
+      {
+        "file": "01_封面.svg",
+        "sha256": "25c702fb29061e84cffe2aa296fd62706e1e043b4476917129b2558e1740a2be"
+      },
+      {
+        "file": "02_议程.svg",
+        "sha256": "f094b9f0846f73ae2113f769c4e26ef7256c4f4376500820343e586c1cb78e87"
+      },
+      {
+        "file": "03_为什么做.svg",
+        "sha256": "dfcf7a550703ceba2f494810a9797919e3b8a3ad5ba543ea3a91a5e930e4adfd"
+      },
+      {
+        "file": "04_研究设计总览.svg",
+        "sha256": "e823bed370155d339f1ea9ebda3f8adfca39849abde7da190ba89042919910f6"
+      },
+      {
+        "file": "05_研究流程.svg",
+        "sha256": "f4ff8109b6389c37ca067d810e4eb802c5df7884ecf51b9b516261d9838ace4b"
+      }
+    ]
+  },
+  "summary": {
+    "total": 5,
+    "passed": 4,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_封面.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"meta\"> x=64.0, y=610.0..640.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#167D70": [
+        "05_研究流程.svg"
+      ],
+      "#4A6F94": [
+        "01_封面.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 5,
+    "totals": {
+      "text_elements": 86,
+      "image_placements": 0,
+      "icons": 4,
+      "svg_geometry_elements": 37,
+      "preset_shapes": 5,
+      "page_frame_elements": 5,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 8,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 2,
+      "presets": 1,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 3,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 15,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 0,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 37
+    },
+    "preset_names": {
+      "chevron": 5
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_封面.svg",
+      "path": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/01_封面.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"meta\"> x=64.0, y=610.0..640.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#4A6F94"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "25c702fb29061e84cffe2aa296fd62706e1e043b4476917129b2558e1740a2be"
+    },
+    {
+      "file": "02_议程.svg",
+      "path": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/02_议程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "f094b9f0846f73ae2113f769c4e26ef7256c4f4376500820343e586c1cb78e87"
+    },
+    {
+      "file": "03_为什么做.svg",
+      "path": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/03_为什么做.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 15
+      },
+      "passed": true,
+      "source_sha256": "dfcf7a550703ceba2f494810a9797919e3b8a3ad5ba543ea3a91a5e930e4adfd"
+    },
+    {
+      "file": "04_研究设计总览.svg",
+      "path": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/04_研究设计总览.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 5,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "e823bed370155d339f1ea9ebda3f8adfca39849abde7da190ba89042919910f6"
+    },
+    {
+      "file": "05_研究流程.svg",
+      "path": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/05_研究流程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 5,
+            "preset_names": {
+              "chevron": 5
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 27,
+        "contextual_values": {
+          "colors": [
+            "#167D70"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f4ff8109b6389c37ca067d810e4eb802c5df7884ecf51b9b516261d9838ace4b"
+    }
+  ]
+}

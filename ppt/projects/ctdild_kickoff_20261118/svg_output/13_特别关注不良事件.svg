@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">04 安全性</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">特别关注不良事件：阈值即动作</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="aesi-pancreatitis" data-pptx-bounds="64 148 560 116" font-size="22" fill="#1D2430">
+    <rect x="64" y="152" width="560" height="108" fill="#E0A030" fill-opacity="0.16"/>
+    <rect x="64" y="152" width="6" height="108" fill="#E0A030"/>
+    <text x="88" y="186" font-weight="bold" fill="#B07A10">胰腺炎</text>
+    <text x="88" y="220">腹痛伴淀粉酶/脂肪酶≥3×ULN<tspan x="88" dy="30" font-weight="bold">→ 立即永久停药，按SAE上报</tspan></text>
+  </g>
+  <g id="aesi-gi" data-pptx-bounds="656 148 560 116" font-size="22" fill="#1D2430">
+    <rect x="656" y="152" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="656" y="152" width="6" height="108" fill="#1F4E79"/>
+    <text x="680" y="186" font-weight="bold" fill="#1F4E79">胃肠道反应</text>
+    <text x="680" y="220">1–2级：对症处理，继续用药<tspan x="680" dy="30">≥3级持续&gt;72 h → <tspan font-weight="bold">暂停，回退一档</tspan></tspan></text>
+  </g>
+  <g id="aesi-hypoglycemia" data-pptx-bounds="64 268 560 116" font-size="22" fill="#1D2430">
+    <rect x="64" y="272" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="64" y="272" width="6" height="108" fill="#1F4E79"/>
+    <text x="88" y="306" font-weight="bold" fill="#1F4E79">低血糖（FPG&lt;3.9 mmol/L）</text>
+    <text x="88" y="340">先减/停磺脲类或胰岛素<tspan x="88" dy="30">调整后仍反复≥2次 → <tspan font-weight="bold">暂停</tspan></tspan></text>
+  </g>
+  <g id="aesi-weight" data-pptx-bounds="656 268 560 116" font-size="22" fill="#1D2430">
+    <rect x="656" y="272" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="656" y="272" width="6" height="108" fill="#1F4E79"/>
+    <text x="680" y="306" font-weight="bold" fill="#1F4E79">体重下降 / 营养不良</text>
+    <text x="680" y="340">降≥5%伴营养不良 → <tspan font-weight="bold">暂缓递增</tspan><tspan x="680" dy="30">降≥10%伴营养不良/肌少症 → <tspan font-weight="bold">暂停</tspan></tspan></text>
+  </g>
+  <g id="aesi-gallbladder" data-pptx-bounds="64 388 560 116" font-size="22" fill="#1D2430">
+    <rect x="64" y="392" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="64" y="392" width="6" height="108" fill="#1F4E79"/>
+    <text x="88" y="426" font-weight="bold" fill="#1F4E79">胆囊疾病</text>
+    <text x="88" y="460">右上腹痛、发热 → 腹部超声<tspan x="88" dy="30">确诊胆囊炎/症状性胆石症 → <tspan font-weight="bold">暂停</tspan></tspan></text>
+  </g>
+  <g id="aesi-ae-ild" data-pptx-bounds="656 388 560 116" font-size="22" fill="#1D2430">
+    <rect x="656" y="392" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="656" y="392" width="6" height="108" fill="#1F4E79"/>
+    <text x="680" y="426" font-weight="bold" fill="#1F4E79">ILD急性加重</text>
+    <text x="680" y="460"><tspan font-weight="bold">暂停替尔泊肽</tspan>，按临床常规处置<tspan x="680" dy="30">糖皮质激素不受研究剂量限制</tspan></text>
+  </g>
+  <g id="aesi-liver" data-pptx-bounds="64 508 560 116" font-size="22" fill="#1D2430">
+    <rect x="64" y="512" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="64" y="512" width="6" height="108" fill="#1F4E79"/>
+    <text x="88" y="546" font-weight="bold" fill="#1F4E79">肝功能异常</text>
+    <text x="88" y="580">ALT/AST 1–3×ULN：保肝，≤4周复查<tspan x="88" dy="30">≥5×ULN，或≥3×ULN且TBil≥2×ULN → <tspan font-weight="bold">停药</tspan></tspan></text>
+  </g>
+  <g id="aesi-combination" data-pptx-bounds="656 508 560 116" font-size="22" fill="#1D2430">
+    <rect x="656" y="512" width="560" height="108" fill="#F2F5F8"/>
+    <rect x="656" y="512" width="6" height="108" fill="#1F4E79"/>
+    <text x="680" y="546" font-weight="bold" fill="#1F4E79">联合用药叠加反应</text>
+    <text x="680" y="580">与抗纤维化药/MMF合用出现≥2级胃肠道反应<tspan x="680" dy="30">→ <tspan font-weight="bold">先调背景药、后调替尔泊肽</tspan>，间隔≥1周</tspan></text>
+  </g>
+  <g id="aesi-note" data-pptx-bounds="64 632 1152 40">
+    <text x="64" y="660" font-size="18" fill="#5B6878">AESI一经发生：24小时内记录并评估相关性，符合SAE定义者按SAE流程上报 · AE按CTCAE 5.0分级</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">13</text>
+  </g>
+</svg>

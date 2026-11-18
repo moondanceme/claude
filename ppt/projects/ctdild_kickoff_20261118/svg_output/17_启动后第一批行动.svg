@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="ending">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="takeaway-panel" data-pptx-bounds="0 0 480 720">
+    <rect x="0" y="0" width="480" height="720" fill="#1F4E79"/>
+    <text x="64" y="140" font-size="18" font-weight="bold" fill="#E0A030">关键要点</text>
+    <rect x="64" y="160" width="48" height="4" fill="#E0A030"/>
+    <text x="64" y="236" font-size="32" font-weight="bold" fill="#FFFFFF">规范执行，<tspan x="64" dy="48">决定这项先导研究</tspan><tspan x="64" dy="48">的成败</tspan></text>
+    <text x="64" y="420" font-size="22" fill="#D5DCE4">入排标准 · 剂量递增<tspan x="64" dy="34">盲态评估 · 安全上报</tspan></text>
+    <text x="64" y="620" font-size="16" fill="#D5DCE4">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+  </g>
+  <g id="actions-title" data-pptx-bounds="544 100 672 72">
+    <text x="544" y="140" font-size="32" font-weight="bold" fill="#1F4E79">启动后第一批行动</text>
+  </g>
+  <g id="action-prescreen" data-pptx-bounds="544 188 672 140" fill="#1D2430">
+    <text x="544" y="244" font-size="52" font-weight="bold" fill="#1C9C8C">1</text>
+    <text x="624" y="226" font-size="24" font-weight="bold" fill="#1F4E79">预筛查</text>
+    <text x="624" y="264" font-size="22">检索本中心CTD-ILD患者数据库，<tspan x="624" dy="32">评估潜在合格受试者数量</tspan></text>
+    <rect x="544" y="320" width="672" height="1" fill="#D5DCE4"/>
+  </g>
+  <g id="action-referral" data-pptx-bounds="544 332 672 140" fill="#1D2430">
+    <text x="544" y="388" font-size="52" font-weight="bold" fill="#1C9C8C">2</text>
+    <text x="624" y="370" font-size="24" font-weight="bold" fill="#1F4E79">建立转介机制</text>
+    <text x="624" y="408" font-size="22">与内分泌科、呼吸科建立患者转介，<tspan x="624" dy="32">扩大候选受试者来源</tspan></text>
+    <rect x="544" y="464" width="672" height="1" fill="#D5DCE4"/>
+  </g>
+  <g id="action-readiness" data-pptx-bounds="544 476 672 176" fill="#1D2430">
+    <text x="544" y="532" font-size="52" font-weight="bold" fill="#1C9C8C">3</text>
+    <text x="624" y="514" font-size="24" font-weight="bold" fill="#1F4E79">就绪检查</text>
+    <text x="624" y="552" font-size="22">eCRF上线 · 随机序列就位<tspan x="624" dy="32">全员完成方案与GCP培训</tspan><tspan x="624" dy="32">纤支镜、肺功能、影像流程对接</tspan></text>
+  </g>
+</svg>

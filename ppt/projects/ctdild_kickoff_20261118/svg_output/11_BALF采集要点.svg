@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">03 终点评估与BALF · 呼吸科纤支镜专页</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">BALF采集：基线与第26周各一次（可选项目）</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="balf-conditions" data-pptx-bounds="64 152 340 360" font-size="22" fill="#1D2430">
+    <rect x="64" y="156" width="340" height="352" fill="#F2F5F8"/>
+    <text x="88" y="196" font-size="16" font-weight="bold" fill="#5B6878">第一步</text>
+    <text x="88" y="232" font-size="24" font-weight="bold" fill="#1F4E79">采集前确认（同时满足）</text>
+    <use data-icon="tabler-filled/circle-check" x="88" y="276" width="28" height="28" fill="#1C9C8C"/>
+    <text x="128" y="298">静息SpO₂ ≥ 90%</text>
+    <use data-icon="tabler-filled/circle-check" x="88" y="340" width="28" height="28" fill="#1C9C8C"/>
+    <text x="128" y="362">FVC%pred ≥ 45%</text>
+    <use data-icon="tabler-filled/circle-check" x="88" y="404" width="28" height="28" fill="#1C9C8C"/>
+    <text x="128" y="426">受试者自愿</text>
+    <text x="88" y="482" font-size="16" fill="#5B6878">任一不满足 → 本次不采集</text>
+  </g>
+<g id="p11-arrow-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="412 330 40 36" fill="#1C9C8C" stroke="none">
+<path d="M 412 339 L 434 339 L 434 330 L 452 348 L 434 366 L 434 357 L 412 357 Z"/>
+</g>
+  <g id="balf-timepoints" data-pptx-bounds="460 152 340 360" fill="#1D2430">
+    <rect x="460" y="156" width="340" height="352" fill="#F2F5F8"/>
+    <text x="484" y="196" font-size="16" font-weight="bold" fill="#5B6878">第二步</text>
+    <text x="484" y="232" font-size="24" font-weight="bold" fill="#1F4E79">两个采集时点</text>
+    <rect x="484" y="268" width="292" height="92" fill="#FFFFFF"/>
+    <rect x="484" y="268" width="6" height="92" fill="#1F4E79"/>
+    <text x="508" y="306" font-size="26" font-weight="bold" fill="#1F4E79">V2 基线</text>
+    <text x="508" y="342" font-size="22">W0，基线评估同次访视</text>
+    <rect x="484" y="384" width="292" height="92" fill="#FFFFFF"/>
+    <rect x="484" y="384" width="6" height="92" fill="#1F4E79"/>
+    <text x="508" y="422" font-size="26" font-weight="bold" fill="#1F4E79">V4 第26周</text>
+    <text x="508" y="458" font-size="22">主要终点评估访视</text>
+  </g>
+<g id="p11-arrow-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="808 330 40 36" fill="#1C9C8C" stroke="none">
+<path d="M 808 339 L 830 339 L 830 330 L 848 348 L 830 366 L 830 357 L 808 357 Z"/>
+</g>
+  <g id="balf-assays" data-pptx-bounds="856 152 360 360" font-size="22" fill="#1D2430">
+    <rect x="856" y="156" width="360" height="352" fill="#F2F5F8"/>
+    <text x="880" y="196" font-size="16" font-weight="bold" fill="#5B6878">第三步</text>
+    <text x="880" y="232" font-size="24" font-weight="bold" fill="#1F4E79">检测内容</text>
+    <use data-icon="tabler-filled/microscope" x="880" y="276" width="28" height="28" fill="#1C9C8C"/>
+    <text x="920" y="298">细胞分类计数</text>
+    <use data-icon="tabler-filled/flask" x="880" y="340" width="28" height="28" fill="#1C9C8C"/>
+    <text x="920" y="362">流式细胞术分析<tspan x="920" dy="32">促纤维化巨噬细胞标志物</tspan></text>
+    <text x="880" y="482" font-size="16" fill="#5B6878">组内前后比较 · 组间比较</text>
+  </g>
+  <g id="balf-qc" data-pptx-bounds="64 528 560 140">
+    <use data-icon="tabler-filled/lock" x="64" y="540" width="28" height="28" fill="#1F4E79"/>
+    <text x="104" y="562" font-size="22" font-weight="bold" fill="#1F4E79">质控与盲态</text>
+    <text x="104" y="600" font-size="18" fill="#1D2430">专人负责；检测方法与试剂批次全程保持一致<tspan x="104" dy="30">标本以匿名编码流转，检测人员不知分组与身份</tspan></text>
+  </g>
+  <g id="balf-purpose" data-pptx-bounds="656 528 560 140">
+    <use data-icon="tabler-filled/bulb" x="656" y="540" width="28" height="28" fill="#1F4E79"/>
+    <text x="696" y="562" font-size="22" font-weight="bold" fill="#1F4E79">为什么采</text>
+    <text x="696" y="600" font-size="18" fill="#1D2430">为动物实验中替尔泊肽调控促纤维化巨噬细胞<tspan x="696" dy="30">的机制提供初步人体线索（探索性终点）</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">11</text>
+  </g>
+</svg>

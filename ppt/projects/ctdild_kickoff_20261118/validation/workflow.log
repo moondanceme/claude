@@ -39,3 +39,268 @@ argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/confir
 stderr:
   [03:23:30] [INFO] confirm_ui: confirm server stopped (pid=627)
 === 2026-11-18T03:23:30.351Z END run=f3a5cafffa7d elapsed_ms=1819 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-11-18T03:39:43.106Z PYTHON run=d31666ca8f1f ===
+cwd: /home/user/claude
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/icon_sync.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "tabler-filled/lungs", "tabler-filled/pill", "tabler-filled/user", "tabler-filled/calendar", "tabler-filled/clock", "tabler-filled/alert-triangle", "tabler-filled/shield-check", "tabler-filled/flask", "tabler-filled/microscope", "tabler-filled/database", "tabler-filled/file-text", "tabler-filled/clipboard", "tabler-filled/list-check", "tabler-filled/eye", "tabler-filled/lock", "tabler-filled/heart", "tabler-filled/scale", "tabler-filled/droplet", "tabler-filled/calendar-event", "tabler-filled/bulb", "tabler-filled/circle-check", "tabler-filled/flag", "tabler-filled/search"]
+stderr:
+  [OK] 23 icon(s) in /home/user/claude/ppt/projects/ctdild_kickoff_20261118/icons:
+       + tabler-filled/lungs
+       + tabler-filled/pill
+       + tabler-filled/user
+       + tabler-filled/calendar
+       + tabler-filled/clock
+       + tabler-filled/alert-triangle
+       + tabler-filled/shield-check
+       + tabler-filled/flask
+stderr-tail:
+       + tabler-filled/bulb
+       + tabler-filled/circle-check
+       + tabler-filled/flag
+       + tabler-filled/search
+=== 2026-11-18T03:39:43.329Z END run=d31666ca8f1f elapsed_ms=223 output_lines=24 retained=13 omitted=11 ===
+
+=== 2026-11-18T03:41:24.259Z PYTHON run=86a16a6f86eb ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/project_manager.py", "validate", "."]
+stdout:
+  [WARN]
+  [OK] Project structure is valid, with warnings.
+=== 2026-11-18T03:41:27.788Z END run=86a16a6f86eb elapsed_ms=3529 output_lines=5 retained=2 omitted=3 ===
+
+=== 2026-11-18T03:41:44.678Z PYTHON run=89910ab5c5af ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/text_measure.py", "calibrate", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--outline"]
+=== 2026-11-18T03:41:45.079Z END run=89910ab5c5af elapsed_ms=401 output_lines=13 retained=0 omitted=13 ===
+
+=== 2026-11-18T03:41:45.622Z PYTHON run=c8bb1fe4feff ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_editor/server.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--live", "--daemon"]
+stderr:
+  [03:41:46] [INFO] svg_editor: started live preview in background: http://127.0.0.1:6060 (pid=377)
+  [03:41:46] [INFO] svg_editor: log: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/live_preview/server.log
+  [03:41:46] [WARNING] svg_editor: browser launch failed: no browser accepted the URL; open http://127.0.0.1:6060 manually
+  [03:41:46] [INFO] svg_editor: browser did not auto-open; open http://127.0.0.1:6060 manually
+=== 2026-11-18T03:41:46.312Z END run=c8bb1fe4feff elapsed_ms=690 output_lines=4 retained=4 omitted=0 ===
+
+=== 2026-11-18T03:42:10.473Z PYTHON run=572aa201bb3d ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/project_manager.py", "validate", "."]
+stdout:
+  [WARN]
+  [OK] Project structure is valid, with warnings.
+=== 2026-11-18T03:42:10.867Z END run=572aa201bb3d elapsed_ms=394 output_lines=5 retained=2 omitted=3 ===
+
+=== 2026-11-18T03:42:11.023Z NOTE id=5edc71dced8b ===
+Added Display 52 typography role (cover/hero numbers recur >2x) before P01
+
+=== 2026-11-18T03:44:32.160Z PYTHON run=aa7e526f0327 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/preset_shape_svg.py", "render-batch", "--input", "-"]
+=== 2026-11-18T03:44:32.207Z END run=aa7e526f0327 elapsed_ms=47 output_lines=15 retained=0 omitted=15 ===
+
+=== 2026-11-18T03:45:07.561Z PYTHON run=2716d2e04144 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--canonical-authoring", "--stage", "early", "--json"]
+stdout:
+  [WARN] 01_封面.svg - Passed (with warnings)
+     [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="meta"> x=64.0, y=610.0..640.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [OK] 02_议程.svg - Passed
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 4 (80%)
+    [WARN] With warnings: 1 (20%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 1        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 86 | images: 0 | icons: 4
+    Geometry: SVG elements 37 | native presets 5 | page-frame elements 5 | marker uses 0
+  [REPORT] JSON quality report exported: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/validation/svg_quality_early_report.json
+=== 2026-11-18T03:45:08.644Z END run=2716d2e04144 elapsed_ms=1082 output_lines=44 retained=17 omitted=27 ===
+
+=== 2026-11-18T03:48:13.606Z PYTHON run=8f101c2e9950 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/stamp_native_fallbacks.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output/09_访视评估节点.svg", "--write"]
+=== 2026-11-18T03:48:13.613Z END run=8f101c2e9950 elapsed_ms=7 output_lines=2 retained=0 omitted=2 ===
+
+=== 2026-11-18T03:48:46.337Z PYTHON run=141bbd1fa38e ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/preset_shape_svg.py", "render-batch", "--input", "-"]
+=== 2026-11-18T03:48:46.381Z END run=141bbd1fa38e elapsed_ms=44 output_lines=6 retained=0 omitted=6 ===
+
+=== 2026-11-18T03:50:35.505Z PYTHON run=f536975f17b8 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/preset_shape_svg.py", "render-batch", "--input", "-"]
+=== 2026-11-18T03:50:35.542Z END run=f536975f17b8 elapsed_ms=36 output_lines=6 retained=0 omitted=6 ===
+
+=== 2026-11-18T03:52:19.270Z PYTHON run=d1b4b252bc53 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_封面.svg - Passed
+  [WARN] 06_纳入标准.svg - Passed (with warnings)
+     [WARN] Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=104, y=240; text='· 风湿免疫专科医师确诊以下之一：RA、…'), <text> (x=712, y=240; text='· HRCT纤维化累及＞10%肺实质，伴…'), <text> (x=104, y=504; text='· T2DM：FPG≥7.0 mmol/…'), +2 more; use supported explicit text positioning when page fit matters (continuation <tspan> lines repeat the parent x; a hanging indent needs its own <text>)
+  [WARN] 07_排除标准.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [ERROR] 08_剂量递增.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <text> (x=660, y=400; text='· 其他与研究药物相关的≥3级不良反应') exceeds <g id="rule-back"> data-pptx-bounds on the vertical axis: content (660.0, 381.3)-(1054.2, 407.7), container (660.0, 332.0)-(1216.0, 404.0), overflow horizontal 0.0%, vertical 5.1% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [WARN] 09_访视评估节点.svg - Passed (with warnings)
+     viewBox: 0 0 1280 720
+     [WARN] data-pptx-replace-with marker visit-matrix: Native PPTX table header style not projected from fallback: style.header_text (blocks --native-charts-and-tables export)
+  [WARN] 10_终点指标.svg - Passed (with warnings)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 10 (58%)
+    [WARN] With warnings: 6 (35%)
+    [ERROR] With errors: 1 (5%)
+  Provenance categories:
+    blocking: 1          hard findings; gate also requires exit 0
+    introduced: 10       advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 414 | images: 0 | icons: 19
+    Geometry: SVG elements 164 | native presets 9 | page-frame elements 20 | marker uses 0
+  [REPORT] JSON quality report exported: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/validation/svg_quality_report.json
+=== 2026-11-18T03:52:20.696Z END run=d1b4b252bc53 elapsed_ms=1426 output_lines=81 retained=26 omitted=55 ===
+
+=== 2026-11-18T03:52:34.031Z PYTHON run=ab00a18355a9 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/stamp_native_fallbacks.py", "09_访视评估节点.svg", "--write"]
+=== 2026-11-18T03:52:34.038Z END run=ab00a18355a9 elapsed_ms=6 output_lines=2 retained=0 omitted=2 ===
+
+=== 2026-11-18T03:52:38.763Z PYTHON run=e579d514ac79 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/svg_output
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_封面.svg - Passed
+  [WARN] 06_纳入标准.svg - Passed (with warnings)
+     [WARN] <text> (x=104, y=614; text='· 超重：BMI≥24 kg/m² 且伴…') exceeds <g id="crit-metabolic"> data-pptx-bounds on the horizontal axis: content (104.0, 595.3)-(639.3, 653.7), container (64.0, 416.0)-(624.0, 668.0), overflow horizontal 2.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per mixed char at 22px incl. headroom; ≈24 chars fit in 560 px
+  [WARN] 07_排除标准.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 13 (76%)
+    [WARN] With warnings: 4 (23%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 6        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 414 | images: 0 | icons: 19
+    Geometry: SVG elements 164 | native presets 9 | page-frame elements 20 | marker uses 0
+  [REPORT] JSON quality report exported: /home/user/claude/ppt/projects/ctdild_kickoff_20261118/validation/svg_quality_report.json
+=== 2026-11-18T03:52:40.099Z END run=e579d514ac79 elapsed_ms=1335 output_lines=74 retained=19 omitted=55 ===
+
+=== 2026-11-18T03:52:48.139Z PYTHON run=a8eee6781e95 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", ".", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_封面.svg - Passed
+  [WARN] 06_纳入标准.svg - Passed (with warnings)
+     [WARN] <text> (x=104, y=614; text='· 超重：BMI≥24 kg/m²且伴≥…') exceeds <g id="crit-metabolic"> data-pptx-bounds on the horizontal axis: content (104.0, 595.3)-(639.3, 653.7), container (64.0, 416.0)-(624.0, 668.0), overflow horizontal 2.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per mixed char at 22px incl. headroom; ≈24 chars fit in 560 px
+  [WARN] 07_排除标准.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 13 (76%)
+    [WARN] With warnings: 4 (23%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 6        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 414 | images: 0 | icons: 19
+    Geometry: SVG elements 164 | native presets 9 | page-frame elements 20 | marker uses 0
+  [REPORT] JSON quality report exported: validation/svg_quality_report.json
+=== 2026-11-18T03:52:49.423Z END run=a8eee6781e95 elapsed_ms=1283 output_lines=74 retained=19 omitted=55 ===
+
+=== 2026-11-18T03:53:03.729Z PYTHON run=33d4dc332fb1 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", ".", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_封面.svg - Passed
+  [WARN] 06_纳入标准.svg - Passed (with warnings)
+     [WARN] <text> (x=104, y=578; text='· 肥胖：BMI≥28；或超重：BMI≥…') exceeds <g id="crit-metabolic"> data-pptx-bounds on the horizontal axis: content (104.0, 559.3)-(639.3, 649.7), container (64.0, 416.0)-(624.0, 668.0), overflow horizontal 2.7%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈23.3 px per mixed char at 22px incl. headroom; ≈24 chars fit in 560 px
+  [WARN] 07_排除标准.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 13 (76%)
+    [WARN] With warnings: 4 (23%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 6        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 413 | images: 0 | icons: 19
+    Geometry: SVG elements 164 | native presets 9 | page-frame elements 20 | marker uses 0
+  [REPORT] JSON quality report exported: validation/svg_quality_report.json
+=== 2026-11-18T03:53:05.237Z END run=33d4dc332fb1 elapsed_ms=1508 output_lines=74 retained=19 omitted=55 ===
+
+=== 2026-11-18T03:53:18.875Z PYTHON run=174ec0bb92f4 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_quality_checker.py", ".", "--canonical-authoring", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_封面.svg - Passed
+  [WARN] 07_排除标准.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [WARN] 10_终点指标.svg - Passed (with warnings)
+     [WARN] Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): tspan[17]:font-size '24' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)
+  [SUMMARY] Check Summary
+  Total files: 17
+    [OK] Fully passed: 14 (82%)
+    [WARN] With warnings: 3 (17%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 5        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 17 | text: 413 | images: 0 | icons: 19
+    Geometry: SVG elements 164 | native presets 9 | page-frame elements 20 | marker uses 0
+  [REPORT] JSON quality report exported: validation/svg_quality_report.json
+=== 2026-11-18T03:53:20.030Z END run=174ec0bb92f4 elapsed_ms=1154 output_lines=73 retained=19 omitted=54 ===
+
+=== 2026-11-18T03:53:32.191Z NOTE id=00c046418102 ===
+Carrier receipt: gradients/filters 0 by swiss-minimal flat style; relationship pages without presets carry membership/order via rule grids, numbered columns (P15), date blocks (P16), field panels
+
+=== 2026-11-18T03:54:25.897Z PYTHON run=70fbdc06cf7b ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/total_md_split.py", "."]
+stdout:
+  [OK] SVG files and notes have one-to-one correspondence
+  [Done] Successfully generated 17/17 file(s)
+  [Done] Notes splitting complete
+=== 2026-11-18T03:54:25.903Z END run=70fbdc06cf7b elapsed_ms=5 output_lines=26 retained=3 omitted=23 ===
+
+=== 2026-11-18T03:54:25.995Z PYTHON run=ea9402058b57 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/finalize_svg.py", "."]
+stdout:
+  [OK] 11_BALF采集要点.svg (7 icons)
+  [OK] Done!
+=== 2026-11-18T03:54:26.344Z END run=ea9402058b57 elapsed_ms=349 output_lines=18 retained=2 omitted=16 ===
+
+=== 2026-11-18T03:54:26.760Z PYTHON run=911bf2e32049 ===
+cwd: /home/user/claude/ppt/projects/ctdild_kickoff_20261118
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/svg_to_pptx.py", "."]
+stdout:
+  [Done] Saved: exports/ctdild_kickoff_20261118_035427.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=17 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=5
+    [PPTX] exports/ctdild_kickoff_20261118_035427.pptx
+    [REPORT] validation/ctdild_kickoff_20261118_035427.report.json
+=== 2026-11-18T03:54:28.482Z END run=911bf2e32049 elapsed_ms=1722 output_lines=77 retained=5 omitted=72 ===

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">03 终点评估与BALF</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">终点指标：FVC绝对变化是唯一主要终点</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="primary-endpoint" data-pptx-bounds="64 152 400 416">
+    <rect x="64" y="156" width="400" height="408" fill="#1F4E79"/>
+    <text x="96" y="204" font-size="18" font-weight="bold" fill="#E0A030">主要终点</text>
+    <text x="96" y="300" font-size="52" font-weight="bold" fill="#FFFFFF">FVC</text>
+    <text x="96" y="356" font-size="26" fill="#FFFFFF">第26周较基线的<tspan x="96" dy="38" font-weight="bold">绝对变化量（mL）</tspan></text>
+    <text x="96" y="480" font-size="16" fill="#D5DCE4">选用绝对值而非%pred：减少小样本中<tspan x="96" dy="26">预计值公式带来的个体间变异</tspan></text>
+  </g>
+  <g id="secondary-endpoints" data-pptx-bounds="496 152 720 196" font-size="22" fill="#1D2430">
+    <text x="496" y="188" font-size="24" font-weight="bold" fill="#1F4E79">次要终点<tspan font-size="24" font-weight="normal" fill="#5B6878">（第26周较基线变化）</tspan></text>
+    <rect x="496" y="204" width="720" height="1" fill="#D5DCE4"/>
+    <text x="496" y="244">1　FVC%pred</text>
+    <text x="496" y="284">2　DLCO%pred</text>
+    <text x="496" y="324">3　6分钟步行距离（6MWD）</text>
+    <text x="856" y="244">4　K-BILD总分</text>
+    <text x="856" y="284">5　体重及BMI</text>
+    <text x="856" y="324">6　HbA1c</text>
+  </g>
+  <g id="exploratory-endpoints" data-pptx-bounds="496 360 720 208" font-size="22" fill="#1D2430">
+    <text x="496" y="396" font-size="24" font-weight="bold" fill="#1C9C8C">探索性终点</text>
+    <rect x="496" y="412" width="720" height="1" fill="#D5DCE4"/>
+    <text x="496" y="452">1　胸部HRCT纤维化范围变化</text>
+    <text x="496" y="492">2　血清纤维化生物标志物变化</text>
+    <text x="496" y="532">3　26周内疾病进展事件发生率</text>
+    <text x="856" y="452">4　BALF细胞学及促纤维化<tspan x="856" dy="32">　　巨噬细胞标志物变化</tspan></text>
+  </g>
+  <g id="analysis-band" data-pptx-bounds="64 580 1152 88">
+    <rect x="64" y="584" width="1152" height="80" fill="#F2F5F8"/>
+    <text x="88" y="616" font-size="18" fill="#1D2430"><tspan font-weight="bold" fill="#1F4E79">统计分析：</tspan>ITT为主要分析集；主要终点用ANCOVA（协变量：基线FVC、HRCT纤维化模式），<tspan x="88" dy="30">报告调整后均值差及95%CI与Cohen's d；敏感性分析含MMRM、Wilcoxon检验与PPS；所有P值按描述性解读</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">10</text>
+  </g>
+</svg>

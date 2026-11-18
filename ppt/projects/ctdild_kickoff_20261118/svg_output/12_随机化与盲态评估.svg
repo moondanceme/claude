@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">03 终点评估与BALF</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">随机化与盲态评估：开放标签下的四道隔离</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="open-label" data-pptx-bounds="64 152 280 448" fill="#1D2430">
+    <rect x="64" y="156" width="280" height="440" fill="#1F4E79" fill-opacity="0.08"/>
+    <text x="88" y="200" font-size="16" font-weight="bold" fill="#5B6878">知情方</text>
+    <text x="88" y="244" font-size="26" font-weight="bold" fill="#1F4E79">研究者<tspan x="88" dy="40">受试者</tspan></text>
+    <text x="88" y="356" font-size="22">皮下注射 vs 单纯标准<tspan x="88" dy="32">治疗，未设安慰剂，</tspan><tspan x="88" dy="32">无法双盲</tspan></text>
+    <text x="88" y="500" font-size="16" fill="#5B6878">因此关键终点由不知<tspan x="88" dy="26">分组的人员独立评估 →</tspan></text>
+  </g>
+  <g id="blind-random" data-pptx-bounds="376 152 840 108" fill="#1D2430">
+    <use data-icon="tabler-filled/lock" x="376" y="168" width="32" height="32" fill="#1C9C8C"/>
+    <text x="420" y="194" font-size="24" font-weight="bold" fill="#1F4E79">随机序列</text>
+    <text x="600" y="194" font-size="22">独立人员用R预生成1:1序列（20个分配号）并密封<tspan x="600" dy="32">按入组顺序揭开、记入随机化日志；研究者不可接触</tspan></text>
+    <rect x="376" y="256" width="840" height="1" fill="#D5DCE4"/>
+  </g>
+  <g id="blind-pft" data-pptx-bounds="376 264 840 108" fill="#1D2430">
+    <use data-icon="tabler-filled/lungs" x="376" y="280" width="32" height="32" fill="#1C9C8C"/>
+    <text x="420" y="306" font-size="24" font-weight="bold" fill="#1F4E79">肺功能</text>
+    <text x="600" y="306" font-size="22">肺功能室技师不知分组<tspan x="600" dy="32">按ATS/ERS标准化流程，满足可接受性与重复性</tspan></text>
+    <rect x="376" y="368" width="840" height="1" fill="#D5DCE4"/>
+  </g>
+  <g id="blind-imaging" data-pptx-bounds="376 376 840 108" fill="#1D2430">
+    <use data-icon="tabler-filled/eye" x="376" y="392" width="32" height="32" fill="#1C9C8C"/>
+    <text x="420" y="418" font-size="24" font-weight="bold" fill="#1F4E79">HRCT影像</text>
+    <text x="600" y="418" font-size="22">影像核心实验室3位专家：2人独立阅片<tspan x="600" dy="32">结论不一致时由第3人裁决</tspan></text>
+    <rect x="376" y="480" width="840" height="1" fill="#D5DCE4"/>
+  </g>
+  <g id="blind-stats" data-pptx-bounds="376 488 840 108" fill="#1D2430">
+    <use data-icon="tabler-filled/database" x="376" y="504" width="32" height="32" fill="#1C9C8C"/>
+    <text x="420" y="530" font-size="24" font-weight="bold" fill="#1F4E79">统计分析</text>
+    <text x="600" y="530" font-size="22">独立统计师在数据库锁定后进行分析<tspan x="600" dy="32">分析前制定统计分析计划（SAP）</tspan></text>
+  </g>
+  <g id="blind-reminder" data-pptx-bounds="64 608 1152 60">
+    <rect x="64" y="612" width="1152" height="52" fill="#E0A030" fill-opacity="0.12"/>
+    <use data-icon="tabler-filled/alert-triangle" x="84" y="624" width="28" height="28" fill="#E0A030"/>
+    <text x="124" y="646" font-size="22" font-weight="bold" fill="#1D2430">执行要求：参研人员不得向肺功能技师、影像医师、统计师透露受试者分组</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">12</text>
+  </g>
+</svg>

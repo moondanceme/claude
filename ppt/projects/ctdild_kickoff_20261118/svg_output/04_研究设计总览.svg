@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">02 方案设计</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">研究设计：单中心、随机、开放标签、平行对照</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="design-attributes" data-pptx-bounds="64 150 1152 52">
+    <text x="64" y="186" font-size="22" font-weight="bold" fill="#1F4E79">单中心<tspan fill="#D5DCE4">　｜　</tspan>简单随机 1:1<tspan fill="#D5DCE4">　｜　</tspan>开放标签（终点评估保持盲态）<tspan fill="#D5DCE4">　｜　</tspan>平行对照<tspan fill="#D5DCE4">　｜　</tspan>探索性 Pilot RCT</text>
+  </g>
+  <g id="arm-treatment" data-pptx-bounds="64 216 560 268" fill="#1D2430">
+    <rect x="64" y="220" width="560" height="260" fill="#F2F5F8"/>
+    <rect x="64" y="220" width="560" height="56" fill="#1F4E79"/>
+    <text x="88" y="257" font-size="24" font-weight="bold" fill="#FFFFFF">治疗组　n = 10</text>
+    <text x="88" y="320" font-size="22">入组前已稳定的CTD-ILD标准治疗<tspan x="88" dy="36"><tspan font-weight="bold" fill="#1F4E79">＋ 替尔泊肽</tspan>皮下注射，每周1次</tspan><tspan x="88" dy="36">2.5 mg起，每4周递增2.5 mg</tspan><tspan x="88" dy="36">最高15 mg/周，治疗26周</tspan></text>
+  </g>
+  <g id="arm-control" data-pptx-bounds="656 216 560 268" fill="#1D2430">
+    <rect x="656" y="220" width="560" height="260" fill="#F2F5F8"/>
+    <rect x="656" y="220" width="560" height="56" fill="#1C9C8C"/>
+    <text x="680" y="257" font-size="24" font-weight="bold" fill="#FFFFFF">对照组　n = 10</text>
+    <text x="680" y="320" font-size="22">维持入组前已稳定的CTD-ILD标准治疗<tspan x="680" dy="36">研究期间不更换药物种类、不调整剂量</tspan><tspan x="680" dy="36">方案由研究者参照现行指南判定</tspan></text>
+    <text x="680" y="452" font-size="16" fill="#5B6878">2022中华医学会规范 · 2025 ERS/EULAR · 2023 ACR/CHEST</text>
+  </g>
+  <g id="study-timeline" data-pptx-bounds="64 500 1152 104">
+    <text x="64" y="522" font-size="16" fill="#5B6878">研究时长28周（自随机化起）＋ 筛选期最长4周</text>
+    <rect x="64" y="536" width="144" height="40" fill="#D5DCE4"/>
+    <rect x="208" y="536" width="936" height="40" fill="#1F4E79"/>
+    <rect x="1144" y="536" width="72" height="40" fill="#1C9C8C"/>
+    <text x="136" y="562" font-size="16" text-anchor="middle" fill="#1D2430">筛选 ≤4周</text>
+    <text x="676" y="562" font-size="16" text-anchor="middle" fill="#FFFFFF">治疗期 26周（剂量递增20周 ＋ 个体MTD维持6周）</text>
+    <text x="1180" y="562" font-size="16" text-anchor="middle" fill="#FFFFFF">随访2周</text>
+    <text x="208" y="598" font-size="16" text-anchor="middle" fill="#1F4E79">W0 随机</text>
+    <text x="1144" y="598" font-size="16" text-anchor="middle" fill="#1F4E79">W26</text>
+  </g>
+  <g id="primary-endpoint" data-pptx-bounds="64 612 1152 60">
+    <use data-icon="tabler-filled/flag" x="64" y="626" width="32" height="32" fill="#E0A030"/>
+    <text x="108" y="652" font-size="24" font-weight="bold" fill="#1F4E79">主要终点：第26周FVC较基线的绝对变化（mL）</text>
+    <text x="1216" y="652" font-size="16" text-anchor="end" fill="#5B6878">研究周期 2026.09–2028.09</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">04</text>
+  </g>
+</svg>

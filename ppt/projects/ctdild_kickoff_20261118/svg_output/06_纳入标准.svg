@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">02 方案设计</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">纳入标准：四类条件须同时满足</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <rect id="grid-v" data-pptx-role="decoration" x="640" y="160" width="1" height="500" fill="#D5DCE4"/>
+  <rect id="grid-h" data-pptx-role="decoration" x="64" y="408" width="1152" height="1" fill="#D5DCE4"/>
+  <g id="crit-ctd" data-pptx-bounds="64 152 560 248" font-size="22" fill="#1D2430">
+    <text x="64" y="196" font-size="32" font-weight="bold" fill="#1C9C8C">1</text>
+    <text x="104" y="194" font-size="24" font-weight="bold" fill="#1F4E79">CTD诊断</text>
+    <text x="104" y="240">· 风湿免疫专科医师确诊以下之一：<tspan x="104" dy="32">　RA、SSc、DM/PM、pSS、MCTD</tspan></text>
+    <text x="104" y="314">· 年龄＞18岁，性别不限</text>
+  </g>
+  <g id="crit-ild" data-pptx-bounds="656 152 560 248" font-size="22" fill="#1D2430">
+    <text x="672" y="196" font-size="32" font-weight="bold" fill="#1C9C8C">2</text>
+    <text x="712" y="194" font-size="24" font-weight="bold" fill="#1F4E79">纤维化性ILD</text>
+    <text x="712" y="240">· HRCT纤维化累及<tspan font-weight="bold" fill="#1F4E79">＞10%</tspan>肺实质，<tspan x="712" dy="32">　伴或不伴牵拉性支气管扩张/蜂窝变</tspan></text>
+    <text x="712" y="314">· UIP、NSIP或混合型均可，以纤维化为主</text>
+    <text x="712" y="356">· 无支持替代诊断的证据（含既往肺活检）</text>
+  </g>
+  <g id="crit-metabolic" data-pptx-bounds="64 416 568 252" font-size="22" fill="#1D2430">
+    <text x="64" y="460" font-size="32" font-weight="bold" fill="#1C9C8C">3</text>
+    <text x="104" y="458" font-size="24" font-weight="bold" fill="#1F4E79">代谢异常（至少一项）</text>
+    <text x="104" y="504">· T2DM：FPG≥7.0 mmol/L，或OGTT 2h≥11.1，<tspan x="104" dy="32">　或HbA1c≥6.5%，或已确诊并接受降糖治疗</tspan></text>
+    <text x="104" y="578">· 肥胖：BMI≥28；或超重：BMI≥24 kg/m²<tspan x="104" dy="32">　且伴≥1种体重相关疾病</tspan><tspan x="104" dy="32" fill="#5B6878">（高血压、血脂异常、高血糖、OSA或心血管病）</tspan></text>
+  </g>
+  <g id="crit-stable" data-pptx-bounds="656 416 560 252" font-size="22" fill="#1D2430">
+    <text x="672" y="460" font-size="32" font-weight="bold" fill="#1C9C8C">4</text>
+    <text x="712" y="458" font-size="24" font-weight="bold" fill="#1F4E79">肺功能与治疗稳定</text>
+    <text x="712" y="504">· <tspan font-weight="bold" fill="#1F4E79">FVC%pred≥45%，DLCO%pred≥30%</tspan></text>
+    <text x="712" y="546">· 背景治疗稳定≥3个月，无换药或调量；<tspan x="712" dy="32">　激素调整≤5 mg/d（泼尼松当量）</tspan></text>
+    <text x="712" y="620">· 合并T2DM者降糖方案稳定≥3个月</text>
+    <text x="712" y="656">· 签署书面知情同意书</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">06</text>
+  </g>
+</svg>

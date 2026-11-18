@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="cover">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title-block" data-pptx-bounds="64 120 700 360">
+    <text x="64" y="160" font-size="18" font-weight="bold" fill="#1C9C8C">项目启动会 · Pilot RCT</text>
+    <rect x="64" y="184" width="56" height="4" fill="#1F4E79"/>
+    <text x="64" y="250" font-size="34" font-weight="bold" fill="#1F4E79">替尔泊肽联合标准疗法治疗<tspan x="64" dy="50">合并肥胖/超重或T2DM的</tspan><tspan x="64" dy="50">结缔组织病相关间质性肺病（CTD-ILD）</tspan></text>
+    <text x="64" y="420" font-size="26" fill="#1D2430">探索性随机对照临床试验</text>
+  </g>
+  <g id="meta" data-pptx-bounds="64 560 700 100">
+    <rect x="64" y="572" width="640" height="1" fill="#D5DCE4"/>
+    <text x="64" y="610" font-size="16" fill="#5B6878">陆军军医大学第一附属医院 · 中医与风湿免疫科<tspan x="64" dy="30">主要研究者：邹庆华　｜　方案 V4.0（2026-07-23）　｜　研究周期 2026.09–2028.09</tspan></text>
+  </g>
+  <g id="hook-panel" data-pptx-bounds="820 0 460 720">
+    <rect x="820" y="0" width="460" height="720" fill="#1F4E79"/>
+    <g id="hook-n" fill="#FFFFFF">
+      <text x="880" y="180" font-size="52" font-weight="bold">20</text>
+      <text x="880" y="214" font-size="18" fill="#D5DCE4">例受试者 · 1:1 随机 · 单中心</text>
+    </g>
+    <rect x="880" y="252" width="340" height="1" fill="#4A6F94"/>
+    <g id="hook-weeks" fill="#FFFFFF">
+      <text x="880" y="350" font-size="52" font-weight="bold">26</text>
+      <text x="880" y="384" font-size="18" fill="#D5DCE4">周治疗 · 另有2周安全随访</text>
+    </g>
+    <rect x="880" y="422" width="340" height="1" fill="#4A6F94"/>
+    <g id="hook-fvc" fill="#FFFFFF">
+      <text x="880" y="520" font-size="52" font-weight="bold" fill="#E0A030">FVC</text>
+      <text x="880" y="554" font-size="18" fill="#D5DCE4">主要终点：第26周较基线绝对变化（mL）</text>
+    </g>
+  </g>
+</svg>

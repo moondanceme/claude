@@ -14,3 +14,5 @@ projects/*/images/
 projects/*/analysis/
 projects/*/.confirm_ui.lock
 projects/*/confirm_ui/session.json
+projects/*/backup/
+projects/*/svg_final/

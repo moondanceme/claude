@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">05 数据质控与执行</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">数据管理与质控：72小时录入，关键数据100% SDV</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <rect id="dm-spine" data-pptx-role="decoration" x="84" y="195" width="888" height="2" fill="#D5DCE4"/>
+  <g id="dm-entry" data-pptx-bounds="64 168 272 192" font-size="22" fill="#1D2430">
+    <circle cx="84" cy="196" r="20" fill="#1F4E79"/>
+    <text x="84" y="204" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="116" y="204" font-size="24" font-weight="bold" fill="#1F4E79">录入</text>
+    <text x="64" y="252">访视后<tspan font-weight="bold" fill="#1F4E79">72 h</tspan>内录入eCRF<tspan x="64" dy="32">SAE获知后24 h内录入</tspan><tspan x="64" dy="32">修改保留完整审计轨迹</tspan></text>
+  </g>
+  <g id="dm-validate" data-pptx-bounds="360 168 272 192" font-size="22" fill="#1D2430">
+    <circle cx="380" cy="196" r="20" fill="#1F4E79"/>
+    <text x="380" y="204" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="412" y="204" font-size="24" font-weight="bold" fill="#1F4E79">校验</text>
+    <text x="360" y="252">范围、一致性、完整性、<tspan x="360" dy="32">时间顺序逻辑校验</tspan><tspan x="360" dy="32">肺功能与影像评分</tspan><tspan x="360" dy="32">核对原始报告</tspan></text>
+  </g>
+  <g id="dm-verify" data-pptx-bounds="656 168 272 192" font-size="22" fill="#1D2430">
+    <circle cx="676" cy="196" r="20" fill="#1F4E79"/>
+    <text x="676" y="204" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="708" y="204" font-size="24" font-weight="bold" fill="#1F4E79">核查</text>
+    <text x="656" y="252">每周：录入及时性<tspan x="656" dy="32">每月：完整性与逻辑性</tspan><tspan x="656" dy="32">每季度：项目组稽查</tspan></text>
+  </g>
+  <g id="dm-lock" data-pptx-bounds="952 168 264 192" font-size="22" fill="#1D2430">
+    <circle cx="972" cy="196" r="20" fill="#1F4E79"/>
+    <text x="972" y="204" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="1004" y="204" font-size="24" font-weight="bold" fill="#1F4E79">锁库</text>
+    <text x="952" y="252">疑问全部解决或关闭<tspan x="952" dy="32">PI、统计师、数据管理</tspan><tspan x="952" dy="32">共同审核后锁定</tspan><tspan x="952" dy="32">锁定后不再改动</tspan></text>
+  </g>
+  <g id="dm-sdv" data-pptx-bounds="64 380 552 288" fill="#1D2430">
+    <rect x="64" y="384" width="552" height="280" fill="#F2F5F8"/>
+    <text x="88" y="424" font-size="24" font-weight="bold" fill="#1F4E79">源数据核对（SDV）</text>
+    <text x="88" y="512" font-size="52" font-weight="bold" fill="#1F4E79">100%</text>
+    <text x="300" y="490" font-size="18">知情同意书 · 入排标准<tspan x="300" dy="28">主要终点数据</tspan></text>
+    <rect x="88" y="540" width="504" height="1" fill="#D5DCE4"/>
+    <text x="88" y="618" font-size="52" font-weight="bold" fill="#1C9C8C">≥20%</text>
+    <text x="300" y="596" font-size="18">其他数据<tspan x="300" dy="28">随机抽样核对</tspan></text>
+  </g>
+  <g id="dm-deviation" data-pptx-bounds="648 380 568 156" font-size="22" fill="#1D2430">
+    <text x="648" y="412" font-size="24" font-weight="bold" fill="#1F4E79">方案偏离</text>
+    <text x="648" y="452">重大偏离：发现后<tspan font-weight="bold" fill="#B07A10">24 h内</tspan>报PI与伦理</text>
+    <text x="648" y="488">轻微偏离：记录于方案偏离日志</text>
+    <text x="648" y="524">每季度向伦理委员会提交汇总</text>
+  </g>
+  <g id="dm-compliance" data-pptx-bounds="648 548 568 120" font-size="22" fill="#1D2430">
+    <rect x="648" y="552" width="568" height="1" fill="#D5DCE4"/>
+    <text x="648" y="590" font-size="24" font-weight="bold" fill="#1F4E79">用药依从性</text>
+    <text x="648" y="628">每次访视核对注射笔使用记录与剩余药量<tspan x="648" dy="32">指导填写用药日记卡</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">15</text>
+  </g>
+</svg>

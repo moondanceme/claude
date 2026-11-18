@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">02 方案设计</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">干预：每4周递增2.5 mg，20周达个体最大耐受剂量</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="dose-steps" data-pptx-bounds="64 152 564 448">
+    <g id="dose-steps-chartArea">
+      <text x="64" y="176" font-size="16" fill="#5B6878">替尔泊肽剂量（mg/周）</text>
+      <line id="dose-axis-y" x1="104" y1="196" x2="104" y2="540" stroke="#D5DCE4" stroke-width="1"/>
+      <line id="dose-axis-x" x1="104" y1="540" x2="604" y2="540" stroke="#5B6878" stroke-width="1"/>
+      <!-- chart-plot-area: object=dose-steps | 104,200,600,540 -->
+      <rect x="104" y="483.3" width="74.3" height="56.7" fill="#1F4E79" fill-opacity="0.45"/>
+      <rect x="180.3" y="426.7" width="74.3" height="113.3" fill="#1F4E79" fill-opacity="0.55"/>
+      <rect x="256.6" y="370" width="74.4" height="170" fill="#1F4E79" fill-opacity="0.65"/>
+      <rect x="333" y="313.3" width="74.2" height="226.7" fill="#1F4E79" fill-opacity="0.75"/>
+      <rect x="409.2" y="256.7" width="74.3" height="283.3" fill="#1F4E79" fill-opacity="0.85"/>
+      <rect x="485.5" y="200" width="114.5" height="340" fill="#1F4E79"/>
+      <line x1="485.5" y1="313.3" x2="600" y2="313.3" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="8,4"/>
+      <g font-size="18" font-weight="bold" fill="#1F4E79" text-anchor="middle">
+        <text x="141.2" y="474">2.5</text>
+        <text x="217.5" y="417">5.0</text>
+        <text x="293.8" y="360">7.5</text>
+        <text x="370.1" y="303">10.0</text>
+        <text x="446.4" y="247">12.5</text>
+        <text x="542.8" y="190">15.0</text>
+      </g>
+      <text x="542.8" y="305" font-size="16" fill="#FFFFFF" text-anchor="middle">或10.0</text>
+      <g font-size="16" fill="#5B6878" text-anchor="middle">
+        <text x="141.2" y="564">W1–4</text>
+        <text x="217.5" y="564">W5–8</text>
+        <text x="293.8" y="564">W9–12</text>
+        <text x="370.1" y="564">W13–16</text>
+        <text x="446.4" y="564">W17–20</text>
+        <text x="542.8" y="564">W21–26</text>
+      </g>
+      <text x="104" y="592" font-size="16" fill="#5B6878">递增期20周　→　<tspan fill="#1F4E79" font-weight="bold">个体MTD维持6周（10或15 mg/周）</tspan></text>
+    </g>
+  </g>
+  <g id="control-note" data-pptx-bounds="64 612 564 56">
+    <rect x="64" y="616" width="556" height="48" fill="#1C9C8C" fill-opacity="0.12"/>
+    <text x="84" y="647" font-size="18" fill="#167D70" font-weight="bold">对照组：维持标准治疗，研究期间不换药、不调量</text>
+  </g>
+  <g id="rule-hold" data-pptx-bounds="660 156 556 168" font-size="22" fill="#1D2430">
+    <text x="660" y="184" font-weight="bold" fill="#B07A10">暂缓递增</text>
+    <text x="660" y="216">· ≥2级恶心/呕吐持续&gt;72 h且对症无效</text>
+    <text x="660" y="248">· ≥2级腹泻持续&gt;48 h</text>
+    <text x="660" y="280">· 低血糖（FPG&lt;3.9 mmol/L）</text>
+    <text x="660" y="312">· 体重降≥5%且伴营养不良征象</text>
+  </g>
+  <g id="rule-back" data-pptx-bounds="660 332 556 76" font-size="22" fill="#1D2430">
+    <rect x="660" y="334" width="556" height="1" fill="#D5DCE4"/>
+    <text x="660" y="368" font-weight="bold" fill="#B07A10">回退一档</text>
+    <text x="660" y="400">· 其他与研究药物相关的≥3级不良反应</text>
+  </g>
+  <g id="rule-mtd" data-pptx-bounds="660 412 556 104" font-size="22" fill="#1D2430">
+    <rect x="660" y="414" width="556" height="1" fill="#D5DCE4"/>
+    <text x="660" y="448" font-weight="bold" fill="#1F4E79">确定MTD</text>
+    <text x="660" y="480">· 连续2次递增失败 → 以当前剂量为MTD</text>
+    <text x="660" y="508">· 允许以10 mg/周为MTD，不强求15 mg</text>
+  </g>
+  <g id="rule-glucose" data-pptx-bounds="660 520 556 148" font-size="22" fill="#1D2430">
+    <rect x="660" y="522" width="556" height="1" fill="#D5DCE4"/>
+    <text x="660" y="556" font-weight="bold" fill="#1F4E79">降糖药同步调整（V2启用时）</text>
+    <text x="660" y="588">· 磺脲类减量≥50%，低剂量者可停用</text>
+    <text x="660" y="620">· 基础胰岛素（HbA1c≤8.5%）减量≥20%</text>
+    <text x="660" y="652">· 二甲双胍/SGLT2i/α-糖苷酶抑制剂通常无需调整</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">08</text>
+  </g>
+</svg>

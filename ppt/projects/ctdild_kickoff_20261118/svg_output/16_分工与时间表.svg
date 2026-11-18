@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">05 数据质控与执行</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">分工与时间表：2027年8月前完成20例入组</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="member-zou" data-pptx-bounds="64 152 268 216" fill="#1D2430">
+    <rect x="64" y="156" width="264" height="3" fill="#1F4E79"/>
+    <text x="64" y="204" font-size="26" font-weight="bold">邹庆华</text>
+    <text x="64" y="236" font-size="18" fill="#5B6878">主任医师 · 中医学</text>
+    <text x="64" y="290" font-size="24" font-weight="bold" fill="#1F4E79">PI · 方案设计</text>
+    <text x="64" y="340" font-size="16" fill="#5B6878">GCP证书：有</text>
+  </g>
+  <g id="member-liu" data-pptx-bounds="356 152 268 216" fill="#1D2430">
+    <rect x="357" y="156" width="264" height="3" fill="#1F4E79"/>
+    <text x="357" y="204" font-size="26" font-weight="bold">刘秋平</text>
+    <text x="357" y="236" font-size="18" fill="#5B6878">主治医师 · 中医学</text>
+    <text x="357" y="290" font-size="24" font-weight="bold" fill="#1F4E79">安全监督</text>
+    <text x="357" y="340" font-size="16" fill="#5B6878">GCP证书：有</text>
+  </g>
+  <g id="member-guo" data-pptx-bounds="648 152 268 216" fill="#1D2430">
+    <rect x="650" y="156" width="264" height="3" fill="#1F4E79"/>
+    <text x="650" y="204" font-size="26" font-weight="bold">郭翠</text>
+    <text x="650" y="236" font-size="18" fill="#5B6878">住院医师 · 中医学</text>
+    <text x="650" y="290" font-size="24" font-weight="bold" fill="#1F4E79">数据管理</text>
+    <text x="650" y="340" font-size="16" fill="#5B6878">GCP证书：有</text>
+  </g>
+  <g id="member-jiang" data-pptx-bounds="940 152 276 216" fill="#1D2430">
+    <rect x="944" y="156" width="272" height="3" fill="#1F4E79"/>
+    <text x="944" y="204" font-size="26" font-weight="bold">蒋桓宇</text>
+    <text x="944" y="236" font-size="18" fill="#5B6878">住院医师 · 中医学</text>
+    <text x="944" y="290" font-size="24" font-weight="bold" fill="#1F4E79">统计分析</text>
+    <text x="944" y="340" font-size="16" font-weight="bold" fill="#B07A10">GCP证书：暂无（启动前完成培训）</text>
+  </g>
+  <g id="collaborators" data-pptx-bounds="64 380 1152 48">
+    <rect x="64" y="384" width="1152" height="40" fill="#F2F5F8"/>
+    <text x="84" y="410" font-size="18" fill="#1D2430"><tspan font-weight="bold" fill="#1F4E79">协作：</tspan>呼吸科纤支镜（BALF）· 肺功能室 · 影像核心实验室 · 内分泌科/呼吸科（患者转介）· 机构质控 · DSMB</text>
+  </g>
+  <g id="phase-startup" data-pptx-bounds="64 448 368 220" fill="#1D2430">
+    <rect x="64" y="452" width="368" height="92" fill="#1F4E79" fill-opacity="0.6"/>
+    <text x="88" y="490" font-size="24" font-weight="bold" fill="#FFFFFF">2026.07–12</text>
+    <text x="88" y="524" font-size="18" fill="#FFFFFF">启动与审批</text>
+    <text x="64" y="580" font-size="18">科学性审查、伦理审批、临床注册<tspan x="64" dy="28">团队培训 · eCRF搭建 · DSMB组建</tspan></text>
+  </g>
+  <g id="phase-enrol" data-pptx-bounds="448 448 368 220" fill="#1D2430">
+    <rect x="448" y="452" width="368" height="92" fill="#1F4E79"/>
+    <text x="472" y="490" font-size="24" font-weight="bold" fill="#FFFFFF">2027.01–08</text>
+    <text x="472" y="524" font-size="18" fill="#FFFFFF">入组</text>
+    <text x="448" y="580" font-size="18">完成全部20例受试者的<tspan x="448" dy="28">筛选与入组</tspan></text>
+  </g>
+  <g id="phase-close" data-pptx-bounds="832 448 384 220" fill="#1D2430">
+    <rect x="832" y="452" width="384" height="92" fill="#1C9C8C"/>
+    <text x="856" y="490" font-size="24" font-weight="bold" fill="#FFFFFF">2027.08–2028.09</text>
+    <text x="856" y="524" font-size="18" fill="#FFFFFF">完成与总结</text>
+    <text x="832" y="580" font-size="18">完成试验与数据收集、统计分析<tspan x="832" dy="28">研究总结报告 · 论文撰写与投稿</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">16</text>
+  </g>
+</svg>

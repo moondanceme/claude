@@ -1,0 +1,1251 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/home/user/claude/ppt/projects/ctdild_kickoff_20261118",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "1554f23220549e639530c6aead0bbdbadd228304b9a0d0668a40b723585b7a30",
+    "file_count": 17,
+    "files": [
+      {
+        "file": "01_封面.svg",
+        "sha256": "d490f85b40a2ac450f43cc5d77b44170fecf586c8ff2ad8a4f3e8fd7f5f74db9"
+      },
+      {
+        "file": "02_议程.svg",
+        "sha256": "f094b9f0846f73ae2113f769c4e26ef7256c4f4376500820343e586c1cb78e87"
+      },
+      {
+        "file": "03_为什么做.svg",
+        "sha256": "dfcf7a550703ceba2f494810a9797919e3b8a3ad5ba543ea3a91a5e930e4adfd"
+      },
+      {
+        "file": "04_研究设计总览.svg",
+        "sha256": "e823bed370155d339f1ea9ebda3f8adfca39849abde7da190ba89042919910f6"
+      },
+      {
+        "file": "05_研究流程.svg",
+        "sha256": "f4ff8109b6389c37ca067d810e4eb802c5df7884ecf51b9b516261d9838ace4b"
+      },
+      {
+        "file": "06_纳入标准.svg",
+        "sha256": "a4359e07a363b12723216d46a6222c056424981dae954c200da593aa41317f8d"
+      },
+      {
+        "file": "07_排除标准.svg",
+        "sha256": "327ea5ccb99ffcc2e4b7b1788b31c530dfa1bcb67f9aa6885674d7dc8ea1e7a4"
+      },
+      {
+        "file": "08_剂量递增.svg",
+        "sha256": "f063c27be8c990278f90166e44bac288cf0d6261e253bc0701b15d2ae289ff6f"
+      },
+      {
+        "file": "09_访视评估节点.svg",
+        "sha256": "2c48fbecd732bc778526588968a0f8d7bd219450d53e2bec0a0aee8aeaaa6602"
+      },
+      {
+        "file": "10_终点指标.svg",
+        "sha256": "1ed66a437e2a49d193242ce8ab3dad2ccc7c1aaabdbd1572953af267ab3bfe14"
+      },
+      {
+        "file": "11_BALF采集要点.svg",
+        "sha256": "ee5113bc927ea89122ed955e7b2ef7c1869f660e218105218d271319c6dea410"
+      },
+      {
+        "file": "12_随机化与盲态评估.svg",
+        "sha256": "83546d6179c7c9a2ce6481d824eb2fedd0be3826b1b054206a4474e360e8f900"
+      },
+      {
+        "file": "13_特别关注不良事件.svg",
+        "sha256": "80fc5717e990eabf3f0d6453f9bb3f5334cb050a5f9669796370533bde773404"
+      },
+      {
+        "file": "14_上报时限与暂停入组.svg",
+        "sha256": "3ab6e498c73f8229e5ec6a7d80e00353dcd71e25a309e8d0d45e2583f76c4b29"
+      },
+      {
+        "file": "15_数据管理与质控.svg",
+        "sha256": "19f7da4304819ce245b1b856e9209210e156b96441978663602e29a576abed07"
+      },
+      {
+        "file": "16_分工与时间表.svg",
+        "sha256": "ad480f41cb49a6b97bbcbc33cb3b3178fc61018a568ee1cc86530886f46c070d"
+      },
+      {
+        "file": "17_启动后第一批行动.svg",
+        "sha256": "8617e76790f94d436b2984667ed484c682caf583a6fc13a2d37c6651fb346052"
+      }
+    ]
+  },
+  "summary": {
+    "total": 17,
+    "passed": 14,
+    "warnings": 3,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 5,
+      "issues": [
+        {
+          "file": "07_排除标准.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "10_终点指标.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): tspan[17]:font-size '24' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "10_终点指标.svg",
+          "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"secondary-endpoints\"> x=496.0, y=244.0..324.0, 3 lines; <g id=\"secondary-endpoints\"> x=856.0, y=244.0..324.0, 3 lines; <g id=\"exploratory-endpoints\"> x=496.0, y=452.0..532.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "15_数据管理与质控.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (4 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[10]:font-size '22' -> None; text[18]:font-size '22' -> None; text[26]:font-size '22' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "15_数据管理与质控.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"dm-deviation\"> x=648.0, y=488.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#167D70": [
+        "05_研究流程.svg",
+        "08_剂量递增.svg"
+      ],
+      "#4A6F94": [
+        "01_封面.svg"
+      ],
+      "#B07A10": [
+        "07_排除标准.svg",
+        "08_剂量递增.svg",
+        "13_特别关注不良事件.svg",
+        "14_上报时限与暂停入组.svg",
+        "15_数据管理与质控.svg",
+        "16_分工与时间表.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 17,
+    "totals": {
+      "text_elements": 413,
+      "image_placements": 0,
+      "icons": 19,
+      "svg_geometry_elements": 164,
+      "preset_shapes": 9,
+      "page_frame_elements": 20,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 24,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 6,
+      "presets": 3,
+      "charts": 0,
+      "tables": 1,
+      "formulas": 0,
+      "inline_emphasis_runs": 9,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 15,
+    "geometry_elements": {
+      "circle": 4,
+      "ellipse": 0,
+      "line": 3,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 157
+    },
+    "preset_names": {
+      "chevron": 5,
+      "rightArrow": 4
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 1
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_封面.svg",
+      "path": "svg_output/01_封面.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 3,
+        "contextual_values": {
+          "colors": [
+            "#4A6F94"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d490f85b40a2ac450f43cc5d77b44170fecf586c8ff2ad8a4f3e8fd7f5f74db9"
+    },
+    {
+      "file": "02_议程.svg",
+      "path": "svg_output/02_议程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "f094b9f0846f73ae2113f769c4e26ef7256c4f4376500820343e586c1cb78e87"
+    },
+    {
+      "file": "03_为什么做.svg",
+      "path": "svg_output/03_为什么做.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 15
+      },
+      "passed": true,
+      "source_sha256": "dfcf7a550703ceba2f494810a9797919e3b8a3ad5ba543ea3a91a5e930e4adfd"
+    },
+    {
+      "file": "04_研究设计总览.svg",
+      "path": "svg_output/04_研究设计总览.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 5,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "e823bed370155d339f1ea9ebda3f8adfca39849abde7da190ba89042919910f6"
+    },
+    {
+      "file": "05_研究流程.svg",
+      "path": "svg_output/05_研究流程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 5,
+            "preset_names": {
+              "chevron": 5
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 27,
+        "contextual_values": {
+          "colors": [
+            "#167D70"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f4ff8109b6389c37ca067d810e4eb802c5df7884ecf51b9b516261d9838ace4b"
+    },
+    {
+      "file": "06_纳入标准.svg",
+      "path": "svg_output/06_纳入标准.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "a4359e07a363b12723216d46a6222c056424981dae954c200da593aa41317f8d"
+    },
+    {
+      "file": "07_排除标准.svg",
+      "path": "svg_output/07_排除标准.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[11]:fill '#1D2430' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 5,
+        "contextual_values": {
+          "colors": [
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "327ea5ccb99ffcc2e4b7b1788b31c530dfa1bcb67f9aa6885674d7dc8ea1e7a4"
+    },
+    {
+      "file": "08_剂量递增.svg",
+      "path": "svg_output/08_剂量递增.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 34,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 34,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#167D70",
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "f063c27be8c990278f90166e44bac288cf0d6261e253bc0701b15d2ae289ff6f"
+    },
+    {
+      "file": "09_访视评估节点.svg",
+      "path": "svg_output/09_访视评估节点.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 66,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 18,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 66,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "2c48fbecd732bc778526588968a0f8d7bd219450d53e2bec0a0aee8aeaaa6602"
+    },
+    {
+      "file": "10_终点指标.svg",
+      "path": "svg_output/10_终点指标.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (1 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): tspan[17]:font-size '24' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"secondary-endpoints\"> x=496.0, y=244.0..324.0, 3 lines; <g id=\"secondary-endpoints\"> x=856.0, y=244.0..324.0, 3 lines; <g id=\"exploratory-endpoints\"> x=496.0, y=452.0..532.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "1ed66a437e2a49d193242ce8ab3dad2ccc7c1aaabdbd1572953af267ab3bfe14"
+    },
+    {
+      "file": "11_BALF采集要点.svg",
+      "path": "svg_output/11_BALF采集要点.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 7,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "rightArrow": 2
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "ee5113bc927ea89122ed955e7b2ef7c1869f660e218105218d271319c6dea410"
+    },
+    {
+      "file": "12_随机化与盲态评估.svg",
+      "path": "svg_output/12_随机化与盲态评估.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "83546d6179c7c9a2ce6481d824eb2fedd0be3826b1b054206a4474e360e8f900"
+    },
+    {
+      "file": "13_特别关注不良事件.svg",
+      "path": "svg_output/13_特别关注不良事件.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 8,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 19,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 16,
+        "contextual_values": {
+          "colors": [
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "80fc5717e990eabf3f0d6453f9bb3f5334cb050a5f9669796370533bde773404"
+    },
+    {
+      "file": "14_上报时限与暂停入组.svg",
+      "path": "svg_output/14_上报时限与暂停入组.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 23,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "rightArrow": 2
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "3ab6e498c73f8229e5ec6a7d80e00353dcd71e25a309e8d0d45e2583f76c4b29"
+    },
+    {
+      "file": "15_数据管理与质控.svg",
+      "path": "svg_output/15_数据管理与质控.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (4 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): text[10]:font-size '22' -> None; text[18]:font-size '22' -> None; text[26]:font-size '22' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"dm-deviation\"> x=648.0, y=488.0..524.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 15,
+        "contextual_values": {
+          "colors": [
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "19f7da4304819ce245b1b856e9209210e156b96441978663602e29a576abed07"
+    },
+    {
+      "file": "16_分工与时间表.svg",
+      "path": "svg_output/16_分工与时间表.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 4,
+        "contextual_values": {
+          "colors": [
+            "#B07A10"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ad480f41cb49a6b97bbcbc33cb3b3178fc61018a568ee1cc86530886f46c070d"
+    },
+    {
+      "file": "17_启动后第一批行动.svg",
+      "path": "svg_output/17_启动后第一批行动.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "\"Microsoft YaHei\", Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "8617e76790f94d436b2984667ed484c682caf583a6fc13a2d37c6651fb346052"
+    }
+  ]
+}

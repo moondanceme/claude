@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 44 1152 92">
+    <text x="64" y="68" font-size="16" font-weight="bold" fill="#1C9C8C">04 安全性</text>
+    <text x="64" y="112" font-size="32" font-weight="bold" fill="#1F4E79">上报时限与暂停入组：24小时是红线</text>
+    <rect x="64" y="126" width="48" height="4" fill="#1C9C8C"/>
+  </g>
+  <g id="sae-reporting" data-pptx-bounds="64 152 504 324" font-size="22" fill="#1D2430">
+    <text x="64" y="180" font-size="16" font-weight="bold" fill="#5B6878">严重不良事件（SAE）</text>
+    <text x="64" y="244" font-size="52" font-weight="bold" fill="#E0A030">24 h</text>
+    <text x="64" y="290" font-weight="bold">获知SAE后上报伦理委员会与DSMB</text>
+    <text x="64" y="340">· 7个工作日内提交详细书面报告</text>
+    <text x="64" y="376">· 非预期严重不良反应：获知后立即报告</text>
+    <text x="64" y="412">· AESI：24 h内记录并评估相关性</text>
+    <text x="64" y="448">· 重大方案偏离：24 h内报PI与伦理</text>
+  </g>
+  <g id="interim-analysis" data-pptx-bounds="64 488 504 180" font-size="22" fill="#1D2430">
+    <rect x="64" y="492" width="504" height="172" fill="#F2F5F8"/>
+    <use data-icon="tabler-filled/search" x="88" y="512" width="28" height="28" fill="#1F4E79"/>
+    <text x="128" y="534" font-size="24" font-weight="bold" fill="#1F4E79">期中安全性分析</text>
+    <text x="88" y="580">第10例完成随机化时启动，数据<tspan x="88" dy="32">提交DSMB审查，建议继续、修改</tspan><tspan x="88" dy="32">方案后继续或终止研究</tspan></text>
+  </g>
+  <g id="pause-triggers" data-pptx-bounds="600 152 616 352" font-size="22" fill="#1D2430">
+    <rect x="600" y="156" width="616" height="344" fill="#E0A030" fill-opacity="0.12"/>
+    <rect x="600" y="156" width="6" height="344" fill="#E0A030"/>
+    <use data-icon="tabler-filled/alert-triangle" x="628" y="172" width="30" height="30" fill="#E0A030"/>
+    <text x="668" y="196" font-size="24" font-weight="bold">立即暂停新受试者入组（满足任一）</text>
+    <text x="628" y="252">① 累计≥2例ILD急性加重</text>
+    <text x="628" y="300">② 累计≥2例≥3级胃肠道反应，处理后无法缓解</text>
+    <text x="628" y="348">③ 1例与研究药物明确相关的SAE<tspan x="628" dy="32" fill="#5B6878">　（如急性胰腺炎、严重过敏反应）</tspan></text>
+    <text x="628" y="428">④ DSMB基于累积安全性数据判断风险不可接受</text>
+    <text x="628" y="474" font-size="16" fill="#5B6878">ILD急性加重按ATS/ERS标准判定</text>
+  </g>
+  <g id="pause-after-label" data-pptx-bounds="600 512 616 32">
+    <text x="600" y="536" font-size="16" font-weight="bold" fill="#5B6878">触发后</text>
+  </g>
+  <g id="pause-step-1" data-pptx-bounds="600 548 184 96" font-size="18" fill="#1D2430" text-anchor="middle">
+    <rect x="600" y="552" width="184" height="88" fill="#F2F5F8"/>
+    <text x="692" y="588" font-weight="bold">24 h内通知<tspan x="692" dy="28">DSMB主席与伦理</tspan></text>
+  </g>
+<g id="p14-arrow-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="788 582 24 24" fill="#B07A10" stroke="none">
+<path d="M 788 588 L 800 588 L 800 582 L 812 594 L 800 606 L 800 600 L 788 600 Z"/>
+</g>
+  <g id="pause-step-2" data-pptx-bounds="816 548 184 96" font-size="18" fill="#1D2430" text-anchor="middle">
+    <rect x="816" y="552" width="184" height="88" fill="#F2F5F8"/>
+    <text x="908" y="588" font-weight="bold">提交专项报告<tspan x="908" dy="28">DSMB再评估获益风险</tspan></text>
+  </g>
+<g id="p14-arrow-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="1004 582 24 24" fill="#B07A10" stroke="none">
+<path d="M 1004 588 L 1016 588 L 1016 582 L 1028 594 L 1016 606 L 1016 600 L 1004 600 Z"/>
+</g>
+  <g id="pause-step-3" data-pptx-bounds="1032 548 184 96" font-size="18" fill="#1D2430" text-anchor="middle">
+    <rect x="1032" y="552" width="184" height="88" fill="#F2F5F8"/>
+    <text x="1124" y="588" font-weight="bold">伦理批准后<tspan x="1124" dy="28">方可恢复入组</tspan></text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 684 1152 30" font-size="16" fill="#5B6878">
+    <rect x="64" y="686" width="1152" height="1" fill="#D5DCE4"/>
+    <text x="64" y="707">替尔泊肽 CTD-ILD 先导RCT · 项目启动会</text>
+    <text x="1216" y="707" text-anchor="end">14</text>
+  </g>
+</svg>

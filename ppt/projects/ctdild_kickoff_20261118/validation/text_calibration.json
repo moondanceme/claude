@@ -1,0 +1,70 @@
+{
+  "roles": {
+    "body": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 24.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.9,
+      "latin_chars_per_100px": 8.1,
+      "caps_chars_per_100px": 7.5,
+      "digits_chars_per_100px": 7.1,
+      "citation_chars_per_100px": 7.5,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1747.7,
+        "slide": "P03",
+        "text": "证据3 本组前期：博来霉素小鼠模型中替尔泊肽显著减轻肺纤维化，并调控促纤维化巨…"
+      }
+    },
+    "title": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 32.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.1,
+      "caps_chars_per_100px": 5.6,
+      "digits_chars_per_100px": 5.4,
+      "citation_chars_per_100px": 5.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 912.1,
+        "slide": "P01",
+        "text": "替尔泊肽联合标准疗法治疗合并肥胖/超重或T2DM的CTD-ILD"
+      }
+    },
+    "subtitle": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 26.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.6,
+      "latin_chars_per_100px": 7.5,
+      "caps_chars_per_100px": 6.9,
+      "digits_chars_per_100px": 6.6,
+      "citation_chars_per_100px": 6.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 937.0,
+        "slide": "P17",
+        "text": "规范执行入排、剂量递增、盲态评估与安全上报，是这项先导研究成败的关键"
+      }
+    },
+    "annotation": {
+      "family": "\"Microsoft YaHei\", Arial, sans-serif",
+      "size": 16.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.9,
+      "latin_chars_per_100px": 12.1,
+      "caps_chars_per_100px": 11.2,
+      "digits_chars_per_100px": 10.7,
+      "citation_chars_per_100px": 11.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-11-18T03:41:45Z",
+  "notes": [
+    "every role is measured at normal weight; recalibrate a role realized as bold deck-wide with --role NAME:FAMILY:SIZE:bold: bold widens Latin and digits about 7%, while the bundled advance table gives CJK one width for both weights"
+  ]
+}
