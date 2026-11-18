@@ -30,3 +30,12 @@ cwd: /home/user/claude/ppt
 argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/confirm_ui/server.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--wait-only", "--wait-stage", "stage1"]
 stderr:
   [03:13:30] [INFO] confirm_ui: waiting for browser confirmation stage=stage1...
+  [03:23:20] [ERROR] confirm_ui: timed out waiting for confirmation stage=stage1 — the page may still be open; re-check /home/user/claude/ppt/projects/ctdild_kickoff_20261118/confirm_ui/result.json before falling back to chat
+=== 2026-11-18T03:23:20.951Z END run=e83167ed6b0f elapsed_ms=590721 output_lines=2 retained=2 omitted=0 ===
+
+=== 2026-11-18T03:23:28.531Z PYTHON run=f3a5cafffa7d ===
+cwd: /home/user/claude
+argv: ["/usr/local/bin/python3", "/root/.claude/skills/ppt-master/scripts/confirm_ui/server.py", "/home/user/claude/ppt/projects/ctdild_kickoff_20261118", "--shutdown"]
+stderr:
+  [03:23:30] [INFO] confirm_ui: confirm server stopped (pid=627)
+=== 2026-11-18T03:23:30.351Z END run=f3a5cafffa7d elapsed_ms=1819 output_lines=1 retained=1 omitted=0 ===
