@@ -1,0 +1,36 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-Hans-CN",
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "项目组全体参研人员（PI、主治/住院医师、数据管理与统计人员）及协作科室（肺功能室、影像科、内分泌科、呼吸科、药房、机构办/质控），可能有伦理与DSMB代表列席；熟悉临床工作，但对本方案细节了解程度不一"
+  },
+  "communication_intent": {
+    "value": "先用简明的科学依据讲清“为什么做”，再把方案关键要素（入排、分组、剂量递增、访视节点、终点）对齐到每位参研人员；随后交代安全性处置、数据与质控要求，最后明确分工、时间表和启动后的第一批行动"
+  },
+  "audience_outcome": {
+    "value": "会后每位成员能说清本试验的目的与主要终点，知道自己在筛选/访视/评估/数据录入中的职责与时限，掌握剂量递增与不良事件（尤其胰腺炎、低血糖、ILD急性加重）的处置与上报规则，并按时间表启动入组"
+  },
+  "core_message": {
+    "value": "这是一项单中心、开放标签、1:1随机的探索性先导RCT（n=20，26周）：在合并T2DM或肥胖/超重的CTD-ILD患者中，验证替尔泊肽联合标准治疗能否改善第26周FVC；成败取决于规范执行入排、剂量递增、盲态评估和安全上报"
+  },
+  "delivery_context": {
+    "value": "主要为PI主讲的项目启动会现场投影（约30–40分钟，含答疑）；次要为会后供参研人员自行查阅的培训材料"
+  },
+  "artifact_afterlife": {
+    "value": "作为GCP启动培训记录存档，供后续入组执行和质控核查时查阅"
+  },
+  "content_divergence": {
+    "value": ""
+  },
+  "template_options": {
+    "schema_version": 1,
+    "phase": "template",
+    "lang": "zh",
+    "explicit_workspace_roots": [],
+    "default_mode": "free_design"
+  }
+}

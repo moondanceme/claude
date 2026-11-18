@@ -1,0 +1,16 @@
+# Confidential protocol source (保密声明) — kept local, not pushed
+*.docx
+CTD-ILD_tirzepatide_protocol_v4.0.md
+CTD-ILD_tirzepatide_protocol_v4.0_files/
+CTD-ILD_tirzepatide_protocol_v4.0.conversion_profile.json
+projects/*/sources/
+# Runtime state
+projects/*/confirm_ui/*.log
+projects/*/confirm_ui/*.pid
+projects/*/confirm_ui/*.lock
+projects/*/live_preview/
+# Figures extracted from the protocol (incl. unpublished data)
+projects/*/images/
+projects/*/analysis/
+projects/*/.confirm_ui.lock
+projects/*/confirm_ui/session.json
